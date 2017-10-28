@@ -5,16 +5,18 @@
 	<movevent event="StepIn" itemid="461" script="decay.lua" />
 
 	<!-- (Depot & Level) tiles -->
-	<movevent event="StepIn" itemid="416" script="tiles.lua" />
-	<movevent event="StepOut" itemid="417" script="tiles.lua" />
-	<movevent event="StepIn" itemid="426" script="tiles.lua" />
-	<movevent event="StepOut" itemid="425" script="tiles.lua" />
-	<movevent event="StepIn" itemid="446" script="tiles.lua" />
-	<movevent event="StepOut" itemid="447" script="tiles.lua" />
-	<movevent event="StepIn" itemid="3216" script="tiles.lua" />
-	<movevent event="StepOut" itemid="3217" script="tiles.lua" />
-	<movevent event="StepIn" itemid="11062" script="tiles.lua" />
-	<movevent event="StepOut" itemid="11063" script="tiles.lua" />
+	<movevent event="StepIn" itemid="416" script="tiles.lua"/>
+	<movevent event="StepOut" itemid="417" script="tiles.lua"/>
+	<movevent event="StepIn" itemid="426" script="tiles.lua"/>
+	<movevent event="StepOut" itemid="425" script="tiles.lua"/>
+	<movevent event="StepIn" itemid="446" script="tiles.lua"/>
+	<movevent event="StepOut" itemid="447" script="tiles.lua"/>
+	<movevent event="StepIn" itemid="3216" script="tiles.lua"/>
+	<movevent event="StepOut" itemid="3217" script="tiles.lua"/>
+	<movevent event="StepIn" itemid="3202" script="tiles.lua"/>
+	<movevent event="StepOut" itemid="3215" script="tiles.lua"/>
+	<movevent event="StepIn" itemid="11059" script="tiles.lua"/>
+	<movevent event="StepOut" itemid="11060" script="tiles.lua"/>
 
 	<!-- Traps -->
 	<movevent event="StepIn" itemid="1510" script="trap.lua" />

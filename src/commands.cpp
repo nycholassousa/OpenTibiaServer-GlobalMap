@@ -197,58 +197,75 @@ void Commands::reloadInfo(Player& player, const std::string& param)
 	if (tmpParam == "action" || tmpParam == "actions") {
 		g_actions->reload();
 		player.sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Reloaded actions.");
+		std::cout << "Reloaded actions." << std::endl;
 	} else if (tmpParam == "config" || tmpParam == "configuration") {
 		g_config.reload();
 		player.sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Reloaded config.");
+		std::cout << "Reloaded config." << std::endl;
 	} else if (tmpParam == "command" || tmpParam == "commands") {
 		reload();
 		player.sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Reloaded commands.");
+		std::cout << "Reloaded commands" << std::endl;
 	} else if (tmpParam == "creaturescript" || tmpParam == "creaturescripts") {
 		g_creatureEvents->reload();
-		player.sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Reloaded creature scripts.");
+		player.sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Reloaded creaturescripts.");
+		std::cout << "Reloaded creaturescripts" << std::endl;
 	} else if (tmpParam == "monster" || tmpParam == "monsters") {
 		g_monsters.reload();
 		player.sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Reloaded monsters.");
+		std::cout << "Reloaded monsters" << std::endl;
 	} else if (tmpParam == "move" || tmpParam == "movement" || tmpParam == "movements"
 	           || tmpParam == "moveevents" || tmpParam == "moveevent") {
 		g_moveEvents->reload();
 		player.sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Reloaded movements.");
+		std::cout << "Reloaded movements" << std::endl;
 	} else if (tmpParam == "npc" || tmpParam == "npcs") {
 		Npcs::reload();
 		player.sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Reloaded npcs.");
+		std::cout << "Reloaded npcs" << std::endl;
 	} else if (tmpParam == "raid" || tmpParam == "raids") {
 		g_game.raids.reload();
 		g_game.raids.startup();
 		player.sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Reloaded raids.");
+		std::cout << "Reloaded raids" << std::endl;
 	} else if (tmpParam == "spell" || tmpParam == "spells") {
 		g_spells->reload();
 		g_monsters.reload();
 		player.sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Reloaded spells.");
+		std::cout << "Reloaded spells" << std::endl;
 	} else if (tmpParam == "talk" || tmpParam == "talkaction" || tmpParam == "talkactions") {
 		g_talkActions->reload();
-		player.sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Reloaded talk actions.");
+		player.sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Reloaded talkactions.");
+		std::cout << "Reloaded talkactions" << std::endl;
 	} else if (tmpParam == "items") {
 		Item::items.reload();
 		player.sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Reloaded items.");
+		std::cout << "Reloaded items" << std::endl;
 	} else if (tmpParam == "weapon" || tmpParam == "weapons") {
 		g_weapons->reload();
 		g_weapons->loadDefaults();
 		player.sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Reloaded weapons.");
+		std::cout << "Reloaded weapons" << std::endl;
 	} else if (tmpParam == "quest" || tmpParam == "quests") {
 		g_game.quests.reload();
 		player.sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Reloaded quests.");
+		std::cout << "Reloaded quests" << std::endl;
 	} else if (tmpParam == "globalevents" || tmpParam == "globalevent") {
 		g_globalEvents->reload();
 		player.sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Reloaded globalevents.");
+		std::cout << "Reloaded globalevents" << std::endl;
 	} else if (tmpParam == "events") {
 		g_events->load();
 		player.sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Reloaded events.");
+		std::cout << "Reloaded events" << std::endl;
 	} else if (tmpParam == "chat" || tmpParam == "channel" || tmpParam == "chatchannels") {
 		g_chat->load();
 		player.sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Reloaded chatchannels.");
+		std::cout << "Reloaded chatchannels" << std::endl;
 	} else if (tmpParam == "global") {
 		g_luaEnvironment.loadFile("data/global.lua");
 		player.sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Reloaded global.lua.");
+		std::cout << "Reloaded global.lua" << std::endl;
 	} else {
 		player.sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Reload type not found.");
 	}
