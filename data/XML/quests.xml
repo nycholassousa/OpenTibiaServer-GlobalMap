@@ -5,4 +5,9 @@
 				<missionstate id="1" description="You have faced the 6 Demon's of hell."/>
 		</mission>
 	</quest>
+	<quest name="Demon Helmet Quest" startstorageid="100136" startstoragevalue="1">
+		<mission name="Demon" storageid="100136" startvalue="1" endvalue="1">
+				<missionstate id="1" description="You have completed Demon Helmet Quest."/>
+		</mission> 
+	</quest> 
 </quests>

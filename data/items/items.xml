@@ -632,188 +632,200 @@
 	<item fromid="1481" toid="1485" article="a" name="coal basin"/>
 	<item id="1486" article="a" name="stone coal basin"/>
 	<item id="1487" article="a" name="fire field">
-		<attribute key="type" value="magicfield"/>
-		<attribute key="replaceable" value="0"/>
+		<attribute key="type" value="magicfield" />
+		<attribute key="decayTo" value="1488" />
+		<attribute key="duration" value="120" />
 		<attribute key="field" value="fire">
-			<attribute key="damage" value="20"/>
-			<attribute key="ticks" value="10000"/>
-			<attribute key="count" value="7"/>
-			<attribute key="damage" value="10"/>
-		</attribute>
+		<attribute key="damage" value="20" />
+		<attribute key="ticks" value="10000" />
+		<attribute key="count" value="7" />
+		<attribute key="damage" value="10" />
+	</attribute>
 	</item>
 	<item id="1488" article="a" name="fire field">
-		<attribute key="type" value="magicfield"/>
-		<attribute key="replaceable" value="0"/>
+		<attribute key="type" value="magicfield" />
+		<attribute key="decayTo" value="1489" />
+		<attribute key="duration" value="120" />
 		<attribute key="field" value="fire">
-			<attribute key="ticks" value="10000"/>
-			<attribute key="count" value="7"/>
-			<attribute key="damage" value="10"/>
-		</attribute>
+		<attribute key="ticks" value="10000" />
+		<attribute key="count" value="7" />
+		<attribute key="damage" value="10" />
+	</attribute>
 	</item>
 	<item id="1489" article="a" name="fire field">
-		<attribute key="type" value="magicfield"/>
-		<attribute key="replaceable" value="0"/>
-		<attribute key="field" value="fire"/>
+		<attribute key="type" value="magicfield" />
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="120" />
+		<attribute key="field" value="fire" />
 	</item>
 	<item id="1490" article="a" name="poison field">
-		<attribute key="type" value="magicfield"/>
-		<attribute key="replaceable" value="0"/>
+		<attribute key="type" value="magicfield" />
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="120" />
 		<attribute key="field" value="poison">
-			<attribute key="ticks" value="5000"/>
-			<attribute key="start" value="5"/>
-			<attribute key="damage" value="100"/>
-		</attribute>
+		<attribute key="ticks" value="5000" />
+		<attribute key="start" value="5" />
+		<attribute key="damage" value="100" />
+	</attribute>
 	</item>
 	<item id="1491" article="an" name="energy field">
-		<attribute key="type" value="magicfield"/>
-		<attribute key="replaceable" value="0"/>
+		<attribute key="type" value="magicfield" />
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="120" />
 		<attribute key="field" value="energy">
-			<attribute key="damage" value="30"/>
-			<attribute key="ticks" value="10000"/>
-			<attribute key="damage" value="25"/>
-		</attribute>
+		<attribute key="damage" value="30" />
+		<attribute key="ticks" value="10000" />
+		<attribute key="damage" value="25" />
+	</attribute>
 	</item>
 	<item id="1492" article="a" name="fire field">
-		<attribute key="type" value="magicfield"/>
-		<attribute key="decayTo" value="1493"/>
-		<attribute key="duration" value="120"/>
+		<attribute key="type" value="magicfield" />
+		<attribute key="replaceable" value="0" />
 		<attribute key="field" value="fire">
-			<attribute key="damage" value="20"/>
-			<attribute key="ticks" value="10000"/>
-			<attribute key="count" value="7"/>
-			<attribute key="damage" value="10"/>
-		</attribute>
+		<attribute key="damage" value="20" />
+		<attribute key="ticks" value="10000" />
+		<attribute key="count" value="7" />
+		<attribute key="damage" value="10" />
+	</attribute>
 	</item>
 	<item id="1493" article="a" name="fire field">
-		<attribute key="type" value="magicfield"/>
-		<attribute key="decayTo" value="1494"/>
-		<attribute key="duration" value="120"/>
+		<attribute key="type" value="magicfield" />
+		<attribute key="replaceable" value="0" />
 		<attribute key="field" value="fire">
-			<attribute key="ticks" value="10000"/>
-			<attribute key="count" value="7"/>
-			<attribute key="damage" value="10"/>
-		</attribute>
+		<attribute key="ticks" value="10000" />
+		<attribute key="count" value="7" />
+		<attribute key="damage" value="10" />
+	</attribute>
 	</item>
 	<item id="1494" article="a" name="fire field">
-		<attribute key="type" value="magicfield"/>
-		<attribute key="decayTo" value="0"/>
-		<attribute key="duration" value="120"/>
-		<attribute key="field" value="fire"/>
+		<attribute key="type" value="magicfield" />
+		<attribute key="replaceable" value="0" />
+		<attribute key="field" value="fire" />
 	</item>
-	<item id="1495" article="an" name="energy field">
-		<attribute key="type" value="magicfield"/>
-		<attribute key="decayTo" value="0"/>
-		<attribute key="duration" value="120"/>
+<item id="1495" article="an" name="energy field">
+		<attribute key="type" value="magicfield" />
+		<attribute key="replaceable" value="0" />
 		<attribute key="field" value="energy">
-			<attribute key="damage" value="30"/>
-			<attribute key="ticks" value="10000"/>
-			<attribute key="damage" value="25"/>
-		</attribute>
+		<attribute key="damage" value="30" />
+		<attribute key="ticks" value="10000" />
+		<attribute key="damage" value="25" />
+	</attribute>
 	</item>
 	<item id="1496" article="a" name="poison field">
-		<attribute key="type" value="magicfield"/>
-		<attribute key="decayTo" value="0"/>
-		<attribute key="duration" value="120"/>
+		<attribute key="type" value="magicfield" />
+		<attribute key="replaceable" value="0" />
 		<attribute key="field" value="poison">
-			<attribute key="ticks" value="5000"/>
-			<attribute key="start" value="5"/>
-			<attribute key="damage" value="100"/>
-		</attribute>
+		<attribute key="ticks" value="5000" />
+		<attribute key="start" value="5" />
+		<attribute key="damage" value="100" />
+	</attribute>
 	</item>
 	<item id="1497" article="a" name="magic wall">
-		<attribute key="type" value="magicfield"/>
-		<attribute key="decayTo" value="0"/>
-		<attribute key="duration" value="20"/>
+		<attribute key="type" value="magicfield" />
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="20" />
 	</item>
 	<item id="1498" article="a" name="magic wall">
-		<attribute key="type" value="magicfield"/>
+		<attribute key="type" value="magicfield" />
 	</item>
 	<item id="1499" article="a" name="rush wood">
-		<attribute key="type" value="magicfield"/>
-		<attribute key="decayTo" value="0"/>
-		<attribute key="duration" value="45"/>
+		<attribute key="type" value="magicfield" />
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="45" />
 		<attribute key="blocking" value="1" />
 	</item>
 	<item id="1500" article="a" name="fire field">
-		<attribute key="type" value="magicfield"/>
-		<attribute key="decayTo" value="1501"/>
-		<attribute key="duration" value="120"/>
+		<attribute key="type" value="magicfield" />
+		<attribute key="decayTo" value="1501" />
+		<attribute key="duration" value="120" />
 		<attribute key="field" value="fire">
-			<attribute key="damage" value="20"/>
-			<attribute key="ticks" value="10000"/>
-			<attribute key="count" value="7"/>
-			<attribute key="damage" value="10"/>
-		</attribute>
+		<attribute key="damage" value="20" />
+		<attribute key="ticks" value="10000" />
+		<attribute key="count" value="7" />
+		<attribute key="damage" value="10" />
+	</attribute>
 	</item>
 	<item id="1501" article="a" name="fire field">
-		<attribute key="type" value="magicfield"/>
-		<attribute key="decayTo" value="1502"/>
-		<attribute key="duration" value="120"/>
+		<attribute key="type" value="magicfield" />
+		<attribute key="decayTo" value="1502" />
+		<attribute key="duration" value="120" />
 		<attribute key="field" value="fire">
-			<attribute key="ticks" value="10000"/>
-			<attribute key="count" value="7"/>
-			<attribute key="damage" value="10"/>
-		</attribute>
+		<attribute key="ticks" value="10000" />
+		<attribute key="count" value="7" />
+		<attribute key="damage" value="10" />
+	</attribute>
 	</item>
 	<item id="1502" article="a" name="fire field">
-		<attribute key="type" value="magicfield"/>
-		<attribute key="decayTo" value="0"/>
-		<attribute key="duration" value="120"/>
-		<attribute key="field" value="fire"/>
+		<attribute key="type" value="magicfield" />
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="120" />
+		<attribute key="field" value="fire" />
 	</item>
 	<item id="1503" article="a" name="poison gas">
-		<attribute key="type" value="magicfield"/>
-		<attribute key="decayTo" value="0"/>
-		<attribute key="duration" value="120"/>
+		<attribute key="type" value="magicfield" />
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="120" />
 		<attribute key="field" value="poison">
-			<attribute key="ticks" value="5000"/>
-			<attribute key="start" value="5"/>
-			<attribute key="damage" value="100"/>
-		</attribute>
+		<attribute key="ticks" value="5000" />
+		<attribute key="start" value="5" />
+		<attribute key="damage" value="100" />
+	</attribute>
 	</item>
 	<item id="1504" article="an" name="energy field">
-		<attribute key="type" value="magicfield"/>
-		<attribute key="decayTo" value="0"/>
-		<attribute key="duration" value="120"/>
+		<attribute key="type" value="magicfield" />
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="120" />
 		<attribute key="field" value="energy">
-			<attribute key="damage" value="30"/>
-			<attribute key="ticks" value="10000"/>
-			<attribute key="damage" value="25"/>
-		</attribute>
+		<attribute key="damage" value="30" />
+		<attribute key="ticks" value="10000" />
+		<attribute key="damage" value="25" />
+	</attribute>
 	</item>
 	<item id="1505" name="smoke">
-		<attribute key="type" value="magicfield"/>
-		<attribute key="replaceable" value="0"/>
+		<attribute key="type" value="magicfield" />
+		<attribute key="replaceable" value="0" />
 	</item>
 	<item id="1506" article="a" name="searing fire">
-		<attribute key="type" value="magicfield"/>
-		<attribute key="decayTo" value="1507"/>
-		<attribute key="duration" value="10"/>
-		<attribute key="replaceable" value="0"/>
+		<attribute key="type" value="magicfield" />
+		<attribute key="decayTo" value="1507" />
+		<attribute key="duration" value="10" />
+		<attribute key="replaceable" value="0" />
 		<attribute key="field" value="fire">
-			<attribute key="damage" value="300"/>
-		</attribute>
+		<attribute key="damage" value="300" />
+	</attribute>
 	</item>
 	<item id="1507" article="a" name="searing fire">
-		<attribute key="type" value="magicfield"/>
-		<attribute key="decayTo" value="1508"/>
-		<attribute key="duration" value="10"/>
-		<attribute key="replaceable" value="0"/>
+		<attribute key="type" value="magicfield" />
+		<attribute key="decayTo" value="1508" />
+		<attribute key="duration" value="10" />
+		<attribute key="replaceable" value="0" />
 		<attribute key="field" value="fire">
-			<attribute key="damage" value="300"/>
-		</attribute>
+		<attribute key="damage" value="300" />
+	</attribute>
 	</item>
 	<item id="1508" name="ashes">
-		<attribute key="type" value="magicfield"/>
-		<attribute key="decayTo" value="1506"/>
-		<attribute key="duration" value="5"/>
-		<attribute key="replaceable" value="0"/>
+		<attribute key="type" value="magicfield" />
+		<attribute key="decayTo" value="1506" />
+		<attribute key="duration" value="5" />
+		<attribute key="replaceable" value="0" />
 	</item>
-	<item id="1509" name="lava"/>
-	<item id="1510" name="slits"/>
-	<item id="1511" name="blades"/>
-	<item id="1512" name="holes"/>
-	<item id="1513" name="spikes"/>
+	<item id="1509" name="lava">
+		<attribute key="type" value="trashholder" />
+		<attribute key="effect" value="fire" />
+	</item>
+	<item id="1510" name="slits" />
+	<item id="1511" name="blades">
+		<attribute key="decayTo" value="1510" />
+		<attribute key="duration" value="10" />
+	</item>
+	<item id="1512" name="strange holes">
+		<attribute key="decayTo" value="1513" />
+		<attribute key="duration" value="4" />
+	</item>
+	<item id="1513" name="spikes">
+		<attribute key="decayTo" value="1512" />
+		<attribute key="duration" value="4" />
+	</item>
 	<item id="1514" article="a" name="pillar"/>
 	<item id="1515" article="a" name="marble pillar"/>
 	<item fromid="1516" toid="1523" article="a" name="wooden railing"/>

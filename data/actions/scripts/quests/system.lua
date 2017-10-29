@@ -1,4 +1,4 @@
-local specialQuests = {
+local specialQuests = { --Choose one chest
 	[2215] = Storage.AnnihilatorDone
 }
 
@@ -6,8 +6,8 @@ local questsExperience = {
 	[2217] = 1 -- dummy values
 }
 
-local questLog = {
-	--[9130] = Storage.hiddenCityOfBeregar.DefaultStart
+local questLog = { --Various chest
+	[2000] = Storage.DemonHelmetDone
 }
 
 local tutorialIds = {
@@ -94,6 +94,7 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		player:addExperience(questsExperience[storage], true)
 	end
 
+	local questStorage = questLog[item.actionid]
 	if questLog[storage] then
 		player:setStorageValue(questLog[storage], 1)
 	end
@@ -113,5 +114,6 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 
 	player:sendTextMessage(MESSAGE_EVENT_ADVANCE, 'You have found ' .. result .. '.')
 	player:setStorageValue(storage, 1)
+	player:setStorageValue(questStorage, 1)
 	return true
 end

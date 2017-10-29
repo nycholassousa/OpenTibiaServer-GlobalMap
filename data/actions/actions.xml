@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
+	<!-- Demon Helmet Quest -->
+	<action uniqueid="45221" script="quests/demon helmet/lever.lua" />
+	<action actionid="2000" script="quests/system.lua"/>
+	
 	<!-- Annihilator Quest -->
 	<action actionid="2115" script="quests/annihilator/door.lua" />
 	<action uniqueid="5000" script="quests/annihilator/lever.lua" />
