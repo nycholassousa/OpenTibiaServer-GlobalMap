@@ -3,7 +3,7 @@ local specialQuests = { --Choose one chest
 }
 
 local questsExperience = {
-	[2217] = 1 -- dummy values
+	[2215] = 100000, --anni
 }
 
 local questLog = { --Various chest
@@ -27,12 +27,12 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 			return false
 		end
 	end
-
+	
 	if player:getStorageValue(storage) > 0 then
 		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, 'The ' .. ItemType(item.itemid):getName() .. ' is empty.')
 		return true
 	end
-
+	
 	local items, reward = {}
 	local size = item:isContainer() and item:getSize() or 0
 	if size == 0 then
@@ -43,17 +43,17 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 			items[#items + 1] = container:getItem(i):clone()
 		end
 	end
-
+	
 	size = #items
 	if size == 1 then
 		reward = items[1]:clone()
 	end
-
+	
 	local result = ''
 	if reward then
 		local ret = ItemType(reward.itemid)
 		if ret:isRune() then
-			result = ret:getArticle() .. ' ' ..  ret:getName() .. ' (' .. reward.type .. ' charges)'
+			result = ret:getArticle() .. ' ' .. ret:getName() .. ' (' .. reward.type .. ' charges)'
 		elseif ret:isStackable() and reward:getCount() > 1 then
 			result = reward:getCount() .. ' ' .. ret:getPluralName()
 		elseif ret:getArticle() ~= '' then
@@ -69,7 +69,7 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		else
 			reward = Game.createItem(1987, 1)
 		end
-
+		
 		for i = 1, size do
 			local tmp = items[i]
 			if reward:addItemEx(tmp) ~= RETURNVALUE_NOERROR then
@@ -79,7 +79,7 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		local ret = ItemType(reward.itemid)
 		result = ret:getArticle() .. ' ' .. ret:getName()
 	end
-
+	
 	if player:addItemEx(reward) ~= RETURNVALUE_NOERROR then
 		local weight = reward:getWeight()
 		if player:getFreeCapacity() < weight then
@@ -89,31 +89,29 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		end
 		return true
 	end
-
+	
 	if questsExperience[storage] then
 		player:addExperience(questsExperience[storage], true)
 	end
-
-	local questStorage = questLog[item.actionid]
-	if questLog[storage] then
-		player:setStorageValue(questLog[storage], 1)
+	
+	if questLog[item.actionid] then
+		player:setStorageValue(questLog[item.actionid], 1)
 	end
-
+	
 	if tutorialIds[storage] then
 		player:sendTutorial(tutorialIds[storage])
 		if item.uid == 50080 then
 			player:setStorageValue(Storage.RookgaardTutorialIsland.SantiagoNpcGreetStorage, 3)
 		end
 	end
-
+	
 	if isInArray(hotaQuest, item.uid) then
 		if player:getStorageValue(Storage.TheAncientTombs.DefaultStart) ~= 1 then
 			player:setStorageValue(Storage.TheAncientTombs.DefaultStart, 1)
 		end
 	end
-
+	
 	player:sendTextMessage(MESSAGE_EVENT_ADVANCE, 'You have found ' .. result .. '.')
 	player:setStorageValue(storage, 1)
-	player:setStorageValue(questStorage, 1)
 	return true
 end
