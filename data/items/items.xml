@@ -499,8 +499,9 @@
 	</item>
 	<item id="1386" article="a" name="ladder"/>
 	<item id="1387" article="a" name="magic forcefield">
-		<attribute key="description" value="You can see the other side through it."/>
-		<attribute key="type" value="teleport"/>
+		<attribute key="description" value="You can see the other side through it." />
+		<attribute key="type" value="teleport" />
+		<attribute key="effect" value="teleport" />
 	</item>
 	<item id="1388" article="a" name="ramp">
 		<attribute key="floorchange" value="east"/>
