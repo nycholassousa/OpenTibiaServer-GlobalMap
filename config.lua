@@ -25,7 +25,7 @@ gameProtocolPort = 7172
 statusProtocolPort = 7171
 maxPlayers = 0
 motd = "Welcome to The Forgotten Server!"
-onePlayerOnlinePerAccount = true
+onePlayerOnlinePerAccount = false
 allowClones = false
 serverName = "Forgotten"
 statusTimeout = 5000
@@ -65,7 +65,7 @@ allowChangeOutfit = true
 freePremium = false
 kickIdlePlayerAfterMinutes = 15
 maxMessageBuffer = 4
-emoteSpells = false
+emoteSpells = true
 classicEquipmentSlots = false
 
 -- Rates

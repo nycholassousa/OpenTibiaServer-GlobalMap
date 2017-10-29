@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
-	<!-- Quests -->
-	<action itemid="1740" script="quests/quests.lua" />
-	<action fromid="1747" toid="1749" script="quests/quests.lua" />
-	<action uniqueid="30015" script="quests/annihilator.lua" />
+	<!-- Annihilator Quest -->
+	<action uniqueid="2115" script="annihilatorQuest/door.lua" />
+	<action uniqueid="5000" script="annihilatorQuest/annihilator.lua" />
+	<action uniqueid="49111" script="annihilatorQuest/reward.lua" />
+	<action uniqueid="49112" script="annihilatorQuest/reward.lua" />
+	<action uniqueid="49113" script="annihilatorQuest/reward.lua" />
+	<action uniqueid="49114" script="annihilatorQuest/reward.lua" />
 
 	<!-- Tools -->
 	<action itemid="2420" script="tools/machete.lua" />
