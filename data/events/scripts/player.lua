@@ -157,20 +157,9 @@ function Player:onMoveItem(item, count, fromPosition, toPosition)
 		end
 	end
 	
-	-- Players cannot throw items on teleports
-	local blockTeleportTrashing = true
-	if blockTeleportTrashing and toPosition.x ~= CONTAINER_POSITION then
-		local thing = Tile(toPosition):getItemByType(ITEM_TYPE_TELEPORT)
-		if thing then
-			self:sendCancelMessage(RETURNVALUE_NOTPOSSIBLE)
-			self:getPosition():sendMagicEffect(CONST_ME_POFF)
-			return false
-		end
-	end
-	
 	-- No move parcel very heavy
 	if item:getWeight() > 90000 and item:getId() == ITEM_PARCEL then
-		self:sendCancelMessage('YOU CANNOT MOVE PARCELS TOO HEAVY.')
+		self:sendCancelMessage(RETURNVALUE_NOTPOSSIBLE)
 		return false
 	end
 
