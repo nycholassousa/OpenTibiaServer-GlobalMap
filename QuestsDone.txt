@@ -1,0 +1,10 @@
+====
+Annihilator Quest
+Door UniqueID: 2215
+Lever UniqueID: 5000
+Storage Done: 5000
+====
+Demon Helmet Quest
+Lever UniqueID: 45221
+Chest ActionID: 2000
+Storage Done: 100136

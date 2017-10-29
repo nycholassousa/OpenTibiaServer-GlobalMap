@@ -125,10 +125,6 @@ Quest Log: 100095-100103
 Quest Status Storage = 100160
 Uniqueid Tile = 2114 
 --////////////////////////////////////--
-Annilathor Quest:
-Door Unique: 2115
-Questlog/Reward: 5000  
---////////////////////////////////////--
 Behemoth Quest:
 Questlog Storage: 100104 
 --////////////////////////////////////--
@@ -151,9 +147,6 @@ Teleport Actionid:2123-2135
 --////////////////////////////////////--
 OnAdvance Level Up Items:
 Storage Used: 100120-100130
---////////////////////////////////////--
-Demon Helmet:
-Questlog Start: 100136
 --////////////////////////////////////--
 Helmet Of Ancient Quest:
 Thalas switches Actionid: 2135

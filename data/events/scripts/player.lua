@@ -81,7 +81,117 @@ function Player:onLookInShop(itemType, count)
 	return true
 end
 
+local config = {
+    maxItemsPerSeconds = 1,
+    exhaustTime = 2000,
+}
+
+if not pushDelay then
+    pushDelay = { }
+end
+
+local function antiPush(self, item, count, fromPosition, toPosition, fromCylinder, toCylinder)
+    if toPosition.x == CONTAINER_POSITION then
+        return true
+    end
+
+    local tile = Tile(toPosition)
+    if not tile then
+        self:sendCancelMessage(RETURNVALUE_NOTPOSSIBLE)
+        return false
+    end
+
+    local cid = self:getId()
+    if not pushDelay[cid] then
+        pushDelay[cid] = {items = 0, time = 0}
+    end
+
+    pushDelay[cid].items = pushDelay[cid].items + 1
+
+    local currentTime = os.mtime()
+    if pushDelay[cid].time == 0 then
+        pushDelay[cid].time = currentTime
+    elseif pushDelay[cid].time == currentTime then
+        pushDelay[cid].items = pushDelay[cid].items + 1
+    elseif currentTime > pushDelay[cid].time then
+        pushDelay[cid].time = 0
+        pushDelay[cid].items = 0
+    end
+
+    if pushDelay[cid].items > config.maxItemsPerSeconds then
+        pushDelay[cid].time = currentTime + config.exhaustTime
+    end
+
+    if pushDelay[cid].time > currentTime then
+        self:sendCancelMessage("You can't move that item so fast.")
+        return false
+    end
+
+    return true
+end
+
 function Player:onMoveItem(item, count, fromPosition, toPosition)
+	-- Check two-handed weapons
+	if toPosition.x ~= CONTAINER_POSITION then
+		return true
+	end
+	if item:getTopParent() == self and bit.band(toPosition.y, 0x40) == 0 then
+		local itemType, moveItem = ItemType(item:getId())
+		if bit.band(itemType:getSlotPosition(), SLOTP_TWO_HAND) ~= 0 and toPosition.y == CONST_SLOT_LEFT then
+			moveItem = self:getSlotItem(CONST_SLOT_RIGHT)
+		elseif itemType:getWeaponType() == WEAPON_SHIELD and toPosition.y == CONST_SLOT_RIGHT then
+			moveItem = self:getSlotItem(CONST_SLOT_LEFT)
+			if moveItem and bit.band(ItemType(moveItem:getId()):getSlotPosition(), SLOTP_TWO_HAND) == 0 then
+				return true
+			end
+		end
+
+		if moveItem then
+			local parent = item:getParent()
+			if parent:getSize() == parent:getCapacity() then
+				self:sendTextMessage(MESSAGE_STATUS_SMALL, Game.getReturnMessage(RETURNVALUE_CONTAINERNOTENOUGHROOM))
+				return false
+			else
+				return moveItem:moveTo(parent)
+			end
+		end
+	end
+	
+	-- Players cannot throw items on teleports
+	local blockTeleportTrashing = true
+	if blockTeleportTrashing and toPosition.x ~= CONTAINER_POSITION then
+		local thing = Tile(toPosition):getItemByType(ITEM_TYPE_TELEPORT)
+		if thing then
+			self:sendCancelMessage(RETURNVALUE_NOTPOSSIBLE)
+			self:getPosition():sendMagicEffect(CONST_ME_POFF)
+			return false
+		end
+	end
+	
+	-- No move parcel very heavy
+	if item:getWeight() > 90000 and item:getId() == ITEM_PARCEL then
+		self:sendCancelMessage('YOU CANNOT MOVE PARCELS TOO HEAVY.')
+		return false
+	end
+
+	-- No move if item count > 20 items
+	if tile and tile:getItemCount() > 20 then
+		self:sendCancelMessage(RETURNVALUE_NOTPOSSIBLE)
+		return false
+	end
+
+	-- Trapdoor
+	if tile and tile:getItemById(370) then 
+		self:sendCancelMessage(RETURNVALUE_NOTPOSSIBLE)
+		self:getPosition():sendMagicEffect(CONST_ME_POFF)
+		return false
+	end
+
+	-- Antipush System
+	if not antiPush(self, item, count, fromPosition, toPosition, fromCylinder, toCylinder) then
+		return false
+	end
+
 	return true
 end
 
