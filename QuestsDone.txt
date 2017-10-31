@@ -5,7 +5,7 @@ Demon Oak Quest
 Reward Chests UniqueID: 12901 - 12904
 Gravestone UniqueID: 55100
 Entrance UniqueID: 9191
-Squares UniqueID: 13005 - 13009
+Squares UniqueID: 9001 - 9005
 Storage Done: 1010
 Storage Progress: 1013
 Storage Squares: 1014

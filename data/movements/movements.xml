@@ -3,7 +3,7 @@
 	<!-- Demon Oak Quest -->
 	<movevent event="StepIn" uniqueid="9191" script="quests/demon oak/entrance.lua" />
 	<movevent event="StepIn" itemid="8292" script="quests/demon oak/areaDamage.lua" />
-	<movevent event="StepIn" fromuid="13005" touid="13009" script="quests/demon oak/squares.lua" />
+	<movevent event="StepIn" fromuid="9001" touid="9005" script="quests/demon oak/squares.lua" />
 	
 	<!-- Demon Helmet Quest -->
 	<movevent event="StepIn" actionid="2016" script="quests/demon helmet/walls.lua" />

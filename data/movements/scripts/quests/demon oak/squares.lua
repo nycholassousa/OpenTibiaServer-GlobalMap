@@ -8,7 +8,6 @@ local voices = {
 	'You can have my demon set, if you help me get out of here!'
 }
 
-local startUid = 9000
 function onStepIn(creature, item, position, fromPosition)
 	local player = creature:getPlayer()
 	if not player then
@@ -16,7 +15,7 @@ function onStepIn(creature, item, position, fromPosition)
 	end
 
 	local status = math.max(player:getStorageValue(Storage.DemonOak.Squares), 0)
-	if item.uid - startUid == status + 1 then
+	if item.uid - 9000 == status + 1 then
 		player:setStorageValue(Storage.DemonOak.Squares, status + 1)
 		player:say(voices[math.random(#voices)], TALKTYPE_MONSTER_YELL, false, player, DEMON_OAK_POSITION)
 	end
