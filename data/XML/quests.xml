@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quests>
+	<quest name="Demon Oak Quest" startstorageid="1013" startstoragevalue="1">
+		<mission name="Mission 1 - Infested Area" storageid="1013" startvalue="1" endvalue="1">
+			<missionstate id="1" description="You have explored the infested area, return to Oldrak and talk about the demon oak."/>
+		</mission>
+		<mission name="Mission 2 - Final Cut" storageid="1013" startvalue="2" endvalue="3">
+			<missionstate id="2" description="By using the holy hallowed axe, you will be able to defeat the Demon Oak. Beware! Demon Oak will try to lure you with bribery."/>
+			<missionstate id="3" description="You have defeated the Demon Oak! Return back to Oldrak and talk about the Demon Oak, he will greatly reward you."/>
+		</mission>
+		<mission name="Mission 3 - Final Location" storageid="1013" startvalue="4" endvalue="5">
+			<missionstate id="4" description="Oldrak said, find a grave stone with inscripted text: Yesim Adeit. Which is located south of the infected area."/>
+			<missionstate id="5" description="You have completed Demon Oak Quest! Oldrak is really thankful for your help."/>
+		</mission>
+	</quest>
+
 	<quest name="Annihilator Quest" startstorageid="5000" startstoragevalue="1">
 		<mission name="Annihilator" storageid="5000" startvalue="1" endvalue="1">
 				<missionstate id="1" description="You have faced the 6 Demon's of hell."/>
 		</mission>
 	</quest>
+	
 	<quest name="Demon Helmet Quest" startstorageid="100136" startstoragevalue="1">
 		<mission name="Demon" storageid="100136" startvalue="1" endvalue="1">
 				<missionstate id="1" description="You have completed Demon Helmet Quest."/>

@@ -54,6 +54,7 @@ local function creatureSayCallback(cid, type, msg)
 				"It belongs to a Daramian nobleman named 'Teme Saiyid'. I knew him well and he told me -almost augured- that someone will come who is worthy to obtain his treasure. I'm sure this 'someone' is you. Good luck in finding it!"
 			}, cid)
 			player:setStorageValue(Storage.DemonOak.Done, 2)
+			player:setStorageValue(Storage.DemonOak.Progress, 4)
 		end
 	elseif msgcontains(msg, 'yes') and npcHandler.topic[cid] == 1 then
 		if player:getStorageValue(Storage.DemonOak.Progress) == 1 then

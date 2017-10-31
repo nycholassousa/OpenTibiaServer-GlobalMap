@@ -21,6 +21,7 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 
 		player:addItem(chest.itemid, chest.count)
 		player:setStorageValue(Storage.DemonOak.Done, 3)
+		player:setStorageValue(Storage.DemonOak.Progress, 5)
 	end
 
 	return true
