@@ -7,7 +7,8 @@ local questsExperience = {
 }
 
 local questLog = { --Various chest
-	[2000] = Storage.DemonHelmetDone
+	[2000] = Storage.DemonHelmetDone,
+	[2001] = Storage.BehemothDone
 }
 
 local tutorialIds = {
@@ -95,7 +96,9 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	end
 	
 	if questLog[item.actionid] then
-		player:setStorageValue(questLog[item.actionid], 1)
+		if (player:getStorageValue(questLog[item.actionid]) ~= 1) then
+			player:setStorageValue(questLog[item.actionid], 1)			
+		end
 	end
 	
 	if tutorialIds[storage] then

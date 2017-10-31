@@ -12,7 +12,8 @@ Storage = {
 		AxeBlowsFace = 8291
 	},
 	AnnihilatorDone = 5000,
-	DemonHelmetDone = 100136
+	DemonHelmetDone = 100136,
+	BehemothDone = 100104
 }
 
 GlobalStorage = {

@@ -27,3 +27,8 @@ Lever UniqueID: 45221
 Chest ActionID: 2000
 
 Storage Done: 100136
+====
+Behemoth Quest
+Lever UniqueID: 2007
+
+Storage Done: 100104

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
+	<!-- Behemoth Quest -->
+	<action uniqueid="2007" script="quests/behemoth/lever.lua" />
+	<action actionid="2001" script="quests/system.lua"/>
+
 	<!-- Demon Oak -->
 	<action itemid="8293" script="quests/demon oak/demonOak.lua" />
 	<action fromuid="12901" touid="12904" script="quests/demon oak/demonOakChest.lua" />

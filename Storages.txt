@@ -91,18 +91,6 @@ Blue Djinn Quest:
 Quest Log: 100064
 Quest Status Storage = 100159
 --////////////////////////////////////--
-Demon Oak Quest:
-Demon Oak Parts Storage: 100065 - 100068
-Demon Oak Enter & Tiles to enter = 100069
-Done Storage = 100070
-Check In Area Storage = 100071
-Quest Log Storage = 100072
-Reward Storage = 100073
-Oak Thing Storage = 100074
-Storage Lib = 100075
-Confirm Oldrak check infested area = 100076
-Talking Oldrak = 100077
---////////////////////////////////////--
 Inquisition Quest:
 Quest Status Storage = 100161
 Quest Log Storage = 100078 
@@ -124,9 +112,6 @@ Pits of Inferno:
 Quest Log: 100095-100103
 Quest Status Storage = 100160
 Uniqueid Tile = 2114 
---////////////////////////////////////--
-Behemoth Quest:
-Questlog Storage: 100104 
 --////////////////////////////////////--
 Unnatural Selection Quest:
 Quest Log Storage: 100105
