@@ -1,3 +1,18 @@
+List of quests 8.60: https://otland.net/threads/real-map-project-up-to-date.89491/
+
+====
+Demon Oak Quest
+Reward Chests UniqueID: 12901 - 12904
+Gravestone UniqueID: 55100
+Entrance UniqueID: 9191
+Squares UniqueID: 13005 - 13009
+Storage Done: 1010
+Storage Progress: 1013
+Storage Squares: 1014
+Storage AxeBlowsBird: 8288
+Storage AxeBlowsLeft: 8289
+Storage AxeBlowsRight: 8290
+Storage AxeBlowsFace: 8291
 ====
 Annihilator Quest
 Door UniqueID: 2215
@@ -5,6 +20,7 @@ Lever UniqueID: 5000
 Storage Done: 5000
 ====
 Demon Helmet Quest
+Wall ActionID: 2016
 Lever UniqueID: 45221
 Chest ActionID: 2000
 Storage Done: 100136

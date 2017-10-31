@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
+	<!-- Demon Oak -->
+	<action itemid="8293" script="quests/demon oak/demonOak.lua" />
+	<action fromuid="12901" touid="12904" script="quests/demon oak/demonOakChest.lua" />
+	<action uniqueid="55100" script="quests/demon oak/demonOakGravestone.lua" />
+
 	<!-- Demon Helmet Quest -->
 	<action uniqueid="45221" script="quests/demon helmet/lever.lua" />
 	<action actionid="2000" script="quests/system.lua"/>
