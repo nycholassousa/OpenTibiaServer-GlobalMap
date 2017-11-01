@@ -123,4 +123,11 @@
 			<missionstate id="12" description="You brought the twelfth Tome of Knowledge to Cael. He learnt something about reveals some of the power structures in Zao. Cael will now make a Dragon Throne for you after you bring him a Red Piece of Cloth. He will reward you with 5000 experience points for each extra tome you give to him." />
 		</mission>
 	</quest>
+	
+	<!-- Vampire Shield Quest -->
+	<quest name="Vampire Shield Quest" startstorageid="5001" startstoragevalue="1">
+		<mission name="Vampire Shield" storageid="5001" startvalue="1" endvalue="1">
+				<missionstate id="1" description="You knew how to explore and found a great reward for that."/>
+		</mission>
+	</quest>
 </quests>

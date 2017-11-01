@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
+	<!-- Vampire Shield -->
+	<action actionid="2002" script="quests/system.lua"/>
+
 	<!-- The New Frontier Quest -->
 	<action uniqueid="3157" script="quests/the new frontier/arena.lua" />
 	<action itemid="11100" script="quests/the new frontier/beaver.lua" />

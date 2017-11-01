@@ -9,9 +9,10 @@ local questsExperience = {
 	[2215] = 100000, --anni
 }
 
-local questLog = { --Various chest
+local questLog = { --Various chests
 	[2000] = Storage.DemonHelmetDone,
-	[2001] = Storage.BehemothDone
+	[2001] = Storage.BehemothDone,
+	[2002] = Storage.VampireShieldDone
 }
 
 local tutorialIds = {
