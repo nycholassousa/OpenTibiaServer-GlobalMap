@@ -1,9 +1,4 @@
---[[
-	TODO
-		- Include PITS and ARENA table in SvargrondArena -> SvargrondArena.arenas / SvargrondArena.pits
-		- Restructure PITS and ARENA table (reward.storage does not seem to be used)
-]]
-
+-- Configs
 SvargrondArena = {
 	-- kick time in seconds (10 minutes)
 	kickTime = 600,
