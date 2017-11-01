@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <creaturescripts>
+	<!-- Elemental Spheres Quest -->
+	<event type="kill" name="ElementalSpheresOverlords" script="quests/elemental spheres/OverlordsKill.lua" />
+
 	<!-- Svargrond Arena: Killing a boss -->
 	<event type="kill" name="SvargrondArenaKill" script="quests/svargrond arena/arena_kill.lua" />
 

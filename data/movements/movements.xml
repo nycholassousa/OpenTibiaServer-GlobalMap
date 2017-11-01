@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <movements>
+	<!-- Elemental Spheres Quest -->
+	<movevent event="AddItem" tileitem="1" itemid="8568" script="quests/elemental spheres/summonOverlord.lua" />
+	<movevent event="AddItem" tileitem="1" itemid="8569" script="quests/elemental spheres/summonOverlord.lua" />
+	<movevent event="AddItem" tileitem="1" itemid="8570" script="quests/elemental spheres/summonOverlord.lua" />
+	<movevent event="AddItem" tileitem="1" itemid="8578" script="quests/elemental spheres/summonOverlord.lua" />
+	<movevent event="StepIn" actionid="9029" script="quests/elemental spheres/AOETeleportOut.lua" />
+
 	<!--Svargrond Arena Quest-->
  	<movevent event="StepIn" actionid="25100" script="quests/svargrond arena/arenaEnter.lua" />
 	<movevent event="StepIn" actionid="25200" script="quests/svargrond arena/arenaPit.lua" />

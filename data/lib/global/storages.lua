@@ -34,8 +34,26 @@ Storage = {
 		Greenhorn = 26100,
 		Scrapper = 27100,
 		Warlord = 28100
+	},
+	ElementalSphere = {
+		QuestLine = 10000,
+		BossStorage = 10001,
+		MachineGemCount = 10002
 	}
 }
 
 GlobalStorage = {
+	ElementalSphere = {
+		BossRoom = 10004,
+
+		KnightBoss = 8568,
+		SorcererBoss = 8569,
+		PaladinBoss = 8570,
+		DruidBoss = 8578,
+
+		Machine1 = 10005,
+		Machine2 = 10006,
+		Machine3 = 10007,
+		Machine4 = 10008
+	}
 }

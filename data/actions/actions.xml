@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
+	<!-- Elemental Spheres -->
+	<action uniqueid="23071" script="quests/elemental spheres/lever.lua" />
+	<action fromid="7911" toid="7912" script="quests/elemental spheres/machine.lua" />
+	<action fromid="7913" toid="7914" script="quests/elemental spheres/machine2.lua" />
+	<action fromid="7915" toid="7916" script="quests/elemental spheres/machine.lua" />
+	<action fromid="7917" toid="7918" script="quests/elemental spheres/machine2.lua" />
+	<action fromid="8298" toid="8299" script="quests/elemental spheres/soils.lua" />
+	<action fromid="8302" toid="8303" script="quests/elemental spheres/soils.lua" />
+	<action fromuid="9025" touid="9028" script="quests/elemental spheres/OAELever.lua" />
+	<action fromid="8304" toid="8306" script="quests/elemental spheres/soils2.lua" />
+	<action itemid="8300" script="quests/elemental spheres/soils2.lua" />
+
 	<!-- Arena Quest-->
 	<action actionid="13100" script="quests/svargrond arena/arena_door.lua" />
 	<action actionid="26100" script="quests/svargrond arena/arena_door.lua" />

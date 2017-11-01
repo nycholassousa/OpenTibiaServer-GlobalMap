@@ -33,6 +33,7 @@ function onLogin(player)
 	player:registerEvent("PlayerDeath")
 	player:registerEvent("DropLoot")
 	player:registerEvent("SvargrondArenaKill")
+	player:registerEvent("ElementalSpheresOverlords")
 	
 	return true
 end
