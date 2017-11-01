@@ -24,8 +24,8 @@
 	<elements>
 		<element energyPercent="20"/>
 		<element holyPercent="10"/>
-		<element earthPercent="-20"/>
-		<element deathPercent="-5"/>
+		<element earthPercent="-10"/>
+		<element deathPercent="-10"/>
 	</elements>
 	<voices interval="5000" chance="10">
 		<voice sentence="Grak brrretz!"/>
@@ -33,16 +33,32 @@
 		<voice sentence="Prek tars, dekklep zurk."/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="15" chance="17500"/><!-- gold coin -->
-		<item id="2666" countmax="2" chance="22500"/><!-- meat -->
-		<item id="1987" chance="100000"><!-- bag -->
-			
-		<item id="2484" chance="15000"/><!-- studded armor -->
-		<item id="2482" chance="10000"/><!-- studded helmet -->
-		<item id="2526" chance="1600"/><!-- studded shield -->
-		<item id="2385" chance="17500"/><!-- sabre -->
-		<item id="2386" chance="18000"/><!-- axe -->
-			
-		</item>
-	</loot>
+    <item id="2148" countmax="8" chance="47900" /><!-- gold coin -->
+    <item id="2484" chance="12825" /><!-- studded armor -->
+    <item id="2526" chance="8850" /><!-- studded shield -->
+    <item id="2666" chance="10750" /><!-- meat -->
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+            <item id="2385" chance="7625" /><!-- sabre -->
+            <item id="2386" chance="7425" /><!-- axe -->
+            <item id="2482" chance="10500" /><!-- studded helmet -->
+        </inside>
+    </item>
+</loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

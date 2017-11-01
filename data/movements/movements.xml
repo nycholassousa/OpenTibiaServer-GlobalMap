@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <movements>
+	<!--Svargrond Arena Quest-->
+ 	<movevent event="StepIn" actionid="25100" script="quests/svargrond arena/arenaEnter.lua" />
+	<movevent event="StepIn" actionid="25200" script="quests/svargrond arena/arenaPit.lua" />
+	<movevent event="StepIn" actionid="25300" script="quests/svargrond arena/arenaPit.lua" />
+	<movevent event="StepIn" fromuid="23201" touid="23203" script="quests/svargrond arena/arenaTrophy.lua" />
+
 	<!-- Demon Oak Quest -->
 	<movevent event="StepIn" uniqueid="9191" script="quests/demon oak/entrance.lua" />
 	<movevent event="StepIn" itemid="8292" script="quests/demon oak/areaDamage.lua" />

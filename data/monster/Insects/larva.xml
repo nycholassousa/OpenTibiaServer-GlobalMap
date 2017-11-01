@@ -18,12 +18,12 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="25" attack="20" poison="15"/>
+		<attack name="melee" interval="2000" skill="25" attack="20" poison="20"/>
 	</attacks>
 	<defenses armor="5" defense="11"/>
 	<elements>
 		<element earthPercent="100"/>
-		<element energyPercent="20"/>
+		<element energyPercent="10"/>
 		<element firePercent="-10"/>
 		<element icePercent="-5"/>
 	</elements>
@@ -31,7 +31,26 @@
 		<immunity paralyze="1"/>
 	</immunities>
 	<loot>
-		<item id="2148" countmax="15" chance="35000"/><!-- gold coin -->
-		<item id="2666" countmax="1" chance="33000"/><!-- meat -->
-	</loot>
+    <item id="2666" chance="15425" /><!-- meat -->
+    <item id="2148" countmax="15" chance="35675" /><!-- gold coin -->
+</loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

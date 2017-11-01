@@ -19,7 +19,7 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="40" attack="74"/>
-		<attack name="physical" interval="1000" chance="17" range="7" min="-50" max="-70">
+		<attack name="physical" interval="2000" chance="15" range="7" min="-0" max="-70">
 			<attribute key="shootEffect" value="throwingknife"/>
 		</attack>
 	</attacks>
@@ -27,7 +27,7 @@
 	<elements>
 	<element firePercent="100"/>
 	<element energyPercent="20"/>
-	<element holyPercent="10"/>
+	<element holyPercent="20"/>
 	<element earthPercent="-10"/>
 	<element deathPercent="-5"/>
 	</elements>
@@ -35,23 +35,46 @@
 		<voice sentence="Ulderek futgyr human!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="35" chance="17000"/><!-- gold coin -->
-		<item id="2667" chance="29000"/><!-- fish -->
-		<item id="2379" chance="26500"/><!-- dagger -->
-		<item id="2410" countmax="4" chance="6250"/><!-- throwing knife -->
-		<item id="2666" countmax="2" chance="12500"/><!-- meat -->
-		<item id="2419" chance="6700"/><!-- scimitar -->
-		<item id="1988" chance="20000"><!-- backpack -->
-			
-				<item id="2478" chance="2500"/><!-- brass legs -->
-				<item id="2463" chance="1250"/><!-- plate armor -->
-				<item id="7378" chance="1000"/><!-- royal spear -->
-				<item id="2207" chance="750"/><!-- sword ring -->
-				<item id="2647" chance="800"/><!-- plate legs -->
-				<item id="2413" chance="750"/><!-- broadsword -->	
-				<item id="7618" chance="400"/><!-- health potion -->	
-				<item id="2475" chance="200"/><!-- warrior helmet -->
-			
-		</item>
-	</loot>
+    <item id="2148" countmax="35" chance="15150" /><!-- gold coin -->
+    <item id="2667" chance="29375" /><!-- fish -->
+    <item id="2379" chance="25100" /><!-- dagger -->
+    <item id="2410" countmax="4" chance="6850" /><!-- throwing knife -->
+    <item id="1988" chance="20225" /><!-- backpack -->
+    <item id="2510" chance="10225" /><!-- plate shield -->
+    <item id="2397" chance="7775" /><!-- longsword -->
+    <item id="2789" chance="9325" /><!-- brown mushroom -->
+    <item id="7378" chance="2850" /><!-- royal spear -->
+    <item id="2419" chance="12050" /><!-- scimitar -->
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+            <item id="11109" chance="1725" /><!-- orc tooth -->
+            <item id="2478" chance="2325" /><!-- brass legs -->
+            <item id="2207" chance="4250" /><!-- sword ring -->
+            <item id="7618" chance="575" /><!-- health potion -->
+            <item id="2413" chance="1200" /><!-- broadsword -->
+            <item id="2463" chance="1675" /><!-- plate armor -->
+            <item id="2647" chance="700" /><!-- plate legs -->
+            <item id="8614" chance="950" /><!-- orc tusk -->
+        </inside>
+    </item>
+</loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

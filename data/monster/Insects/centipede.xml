@@ -18,7 +18,7 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="20" attack="30" poison="22"/>
+		<attack name="melee" interval="2000" skill="20" attack="30" poison="20"/>
 	</attacks>
 	<defenses armor="4" defense="3"/>
 	<elements>
@@ -28,12 +28,26 @@
 		<element firePercent="-15"/>
 	</elements>
 	<loot>
-		<item id="2148" countmax="17" chance="38500"/><!-- gold coin -->
-		<item id="1987" chance="100000"><!-- bag -->
-			
-				<item id="2398" chance="4500"/><!-- mace -->
-				<item id="2376" chance="4000"/><!-- sword -->
-			
-		</item>
-	</loot>
+    <item id="2148" countmax="15" chance="43050" /><!-- gold coin -->
+    <item id="11212" chance="11000" /><!-- centipede leg -->
+</loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

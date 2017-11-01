@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Necropharus" nameDescription="necropharus" race="blood" experience="700" speed="240" manacost="0">
+<monster name="Necropharus" nameDescription="necropharus" race="blood" experience="1050" speed="240" manacost="0">
 	<health now="750" max="750"/>
 	<look type="209" corpse="6080"/>
 	<targetchange interval="5000" chance="8"/>
@@ -18,35 +18,38 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="35" attack="45" poison="95"/>
-		<attack name="lifedrain" interval="1000" chance="20" range="1" min="-80" max="-120">
+		<attack name="melee" interval="2000" skill="30" attack="40"/>
+				<attack name="physical" interval="2000" chance="20" range="7" target="1" min="-0" max="-220">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="20" range="7" target="1" min="-80" max="-120">
 			<attribute key="areaEffect" value="redspark"/>
 		</attack>
-		<attack name="poison" interval="1000" chance="17" range="7" min="-50" max="-140">
-			<attribute key="shootEffect" value="poison"/>
-			<attribute key="areaEffect" value="poison"/>
+		<attack name="fire" interval="2000" chance="10" range="3" min="-50" max="-140">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="fireattack"/>
+		</attack>
+				<attack name="energy" interval="2000" chance="10" range="3" min="-50" max="-140">
+			<attribute key="shootEffect" value="energyball"/>
+			<attribute key="areaEffect" value="energyarea"/>
 		</attack>
 	</attacks>
 	<defenses armor="25" defense="25">
-		<defense name="healing" interval="1000" chance="25" min="60" max="90">
+		<defense name="healing" interval="2000" chance="25" min="0" max="3000">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
 	<immunities>
-		<immunity physical="0"/>
-		<immunity energy="0"/>
-		<immunity fire="0"/>
-		<immunity poison="1"/>
 		<immunity lifedrain="1"/>
-		<immunity paralyze="0"/>
+		<immunity paralyze="1"/>
 		<immunity outfit="1"/>
 		<immunity drunk="1"/>
 		<immunity invisible="1"/>
 	</immunities>
-	<summons maxSummons="4">
-		<summon name="ghoul" interval="1000" chance="20" max="2"/>
-		<summon name="ghost" interval="1000" chance="17" max="1"/>
-		<summon name="mummy" interval="1000" chance="15" max="1"/>
+	<summons maxSummons="6">
+		<summon name="ghoul" interval="2000" chance="10" max="2"/>
+		<summon name="ghost" interval="2000" chance="10" max="2"/>
+		<summon name="mummy" interval="2000" chance="10" max="2"/>
 	</summons>
 	<voices interval="5000" chance="10">
 		<voice sentence="You will rise as my servant!"/>
@@ -62,7 +65,7 @@
 		<item id="5809" chance="100000"/><!-- soul stone -->
 		<item id="2186" chance="500"/><!-- moonlight rod -->
 		<item id="1987" chance="100000"><!-- bag -->
-			
+			<inside>
 				<item id="2483" countmax="1" chance="8500"/><!-- scale armor -->
 				<item id="2796" countmax="1" chance="22500"/><!-- green mushroom -->
 				<item id="2231" countmax="1" chance="6000"/><!-- big bone -->
@@ -76,7 +79,7 @@
 				<item id="2663" chance="909"/><!-- mystic turban -->
 				<item id="2195" chance="666"/><!-- boots of haste -->
 				<item id="2423" chance="5000"/><!-- clerical mace -->
-			
+			</inside>
 		</item>
 	</loot>
 </monster>

@@ -23,9 +23,9 @@
 	<defenses armor="8" defense="14"/>
 	<elements>
 		<element energyPercent="30"/>
-		<element holyPercent="20"/>
+		<element holyPercent="10"/>
 		<element earthPercent="-10"/>
-		<element deathPercent="-5"/>
+		<element deathPercent="-10"/>
 	</elements>
 	<voices interval="5000" chance="10">
 		<voice sentence="Grow truk grrrr."/>
@@ -33,18 +33,37 @@
 		<voice sentence="Alk!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="15" chance="30000"/><!-- gold coin -->
-		<item id="2385" chance="51850"/><!-- sabre -->
-		<item id="2512" chance="23333"/><!-- wooden shield -->
-		<item id="2666" chance="16000"/><!-- meat -->
-		<item id="1987" chance="100000"><!-- bag -->
-					
-				<item id="2464" chance="10750"/><!-- chain armor -->
-				<item id="2007" chance="9750"/><!-- blue bottle -->
-				<item id="2530" chance="400"/><!-- copper shield -->
-				<item id="2448" chance="400"/><!-- studded club -->
-				<item id="2411" chance="400"/><!-- poison dagger -->
-			
-		</item>
-	</loot>
+    <item id="2385" chance="49475" /><!-- sabre -->
+    <item id="2148" countmax="15" chance="35000" /><!-- gold coin -->
+    <item id="2666" chance="14975" /><!-- meat -->
+    <item id="2512" chance="18925" /><!-- wooden shield -->
+    <item id="4839" chance="7275" /><!-- bottle -->
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+            <item id="2464" chance="7925" /><!-- chain armor -->
+            <item id="2530" chance="1125" /><!-- copper shield -->
+            <item id="11109" chance="1500" /><!-- orc tooth -->
+            <item id="2411" chance="625" /><!-- poison dagger -->
+        </inside>
+    </item>
+</loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

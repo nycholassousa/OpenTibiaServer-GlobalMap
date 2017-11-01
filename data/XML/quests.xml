@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quests>
+	<!-- Demon Oak Quest -->
 	<quest name="Demon Oak Quest" startstorageid="1013" startstoragevalue="1">
 		<mission name="Mission 1 - Infested Area" storageid="1013" startvalue="1" endvalue="1">
 			<missionstate id="1" description="You have explored the infested area, return to Oldrak and talk about the demon oak."/>
@@ -14,21 +15,40 @@
 		</mission>
 	</quest>
 
+	<!-- Annihilator Quest -->
 	<quest name="Annihilator Quest" startstorageid="5000" startstoragevalue="1">
 		<mission name="Annihilator" storageid="5000" startvalue="1" endvalue="1">
 				<missionstate id="1" description="You have faced the 6 Demon's of hell."/>
 		</mission>
 	</quest>
 	
+	<!-- Demon Helmet Quest -->
 	<quest name="Demon Helmet Quest" startstorageid="100136" startstoragevalue="1">
 		<mission name="Demon" storageid="100136" startvalue="1" endvalue="1">
 				<missionstate id="1" description="You have completed Demon Helmet Quest."/>
 		</mission> 
 	</quest> 
 	
+	<!-- Behemoth Quest -->
 	<quest name="Behemoth Quest" startstorageid="100104" startstoragevalue="1">
 		<mission name="Behemoth" storageid="100104" startvalue="1" endvalue="1">
 				<missionstate id="1" description="You have completed getting through the Behemoth's."/>
+		</mission>
+	</quest>
+	
+	<!-- Svarground Arena Quest -->
+	<quest name="The Ultimate Challenges" startstorageid="50140" startstoragevalue="1">
+		<mission name="Barbarian Arena - Greenhorn Mode" storageid="50140" startvalue="1" endvalue="2">
+				<missionstate id="1" description="You have to defeat all enemies in this mode." />
+				<missionstate id="2" description="You have defeated all enemies in this mode." />
+		</mission>
+				<mission name="Barbarian Arena - Scrapper Mode" storageid="50141" startvalue="1" endvalue="2">
+				<missionstate id="1" description="You have to defeat all enemies in this mode." />
+				<missionstate id="2" description="You have defeated all enemies in this mode." />
+		</mission>
+				<mission name="Barbarian Arena - Warlord Mode" storageid="50142" startvalue="1" endvalue="2">
+				<missionstate id="1" description="You have to defeat all enemies in this mode." />
+				<missionstate id="2" description="You have defeated all enemies in this mode." />
 		</mission>
 	</quest>
 </quests>

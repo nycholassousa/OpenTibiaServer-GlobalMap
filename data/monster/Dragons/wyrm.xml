@@ -42,7 +42,7 @@
 		<immunity energy="1"/>
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
-		<immunity lifedrain="1"/>
+		<immunity lifedragin="1"/>
 		<!-- so they won't damage self. also, we cannot test are they really immune
 		in Cipbia, as there are no spells nor weapons to attack with life drain -->
 	</immunities>
@@ -60,8 +60,6 @@
 		<item id="2647" chance="1750"/><!-- plate legs -->
 		<item id="8921" chance="700"/><!-- wand of draconia -->
 		<item id="2145" countmax="3" chance="750"/><!-- small diamonds-->
-		<item id="1987" chance="10000"><!-- bag -->
-			
 		<item id="7589" chance="4000"/><!-- strong mana potion -->
 		<item id="2455" chance="15000"/><!-- crossbow -->
 		<item id="2457" chance="7500"/><!-- steel helmet -->
@@ -71,7 +69,5 @@
 		<item id="8873" chance="750"/><!-- hubiscus dress -->
 		<item id="7430" chance="300"/><!-- dragonbone staff -->
 		<item id="8855" chance="200"/><!-- composite hornbow -->
-			
-		</item>
 	</loot>
 </monster>

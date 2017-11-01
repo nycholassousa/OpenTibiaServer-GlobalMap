@@ -1,5 +1,8 @@
 local specialQuests = { --Choose one chest
-	[2215] = Storage.AnnihilatorDone
+	[2215] = Storage.AnnihilatorDone,
+	[26300] = Storage.SvargrondArena.RewardGreenhorn,
+	[27300] = Storage.SvargrondArena.RewardScrapper,
+	[28300] = Storage.SvargrondArena.RewardWarlord
 }
 
 local questsExperience = {

@@ -23,12 +23,14 @@
 	</attacks>
 	<defenses armor="30" defense="30"/>
 	<elements>
-		<element icePercent="100"/>
 		<element firePercent="25"/>
 		<element holyPercent="10"/>
 		<element energyPercent="-15"/>
 		<element deathPercent="-5"/>
 	</elements>
+	<immunities>
+		<immunity ice="1"/>
+	</immunities>
 	<voices interval="2000" chance="5">
 		<voice sentence="Quisavu tukavi!"/>
 		<voice sentence="Si siyoqua jamjam!"/>
@@ -36,20 +38,35 @@
 		<voice sentence="Si ji jusipa!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="30" chance="20000"/><!-- gold coin -->
-		<item id="2666" chance="20000"/><!-- meat -->
-		<item id="2671" chance="20000"/><!-- ham -->
-		<item id="2667" countmax="3" chance="10000"/><!-- fish -->
-		<item id="2398" chance="9000"/><!-- mace-->
-		<item id="1987" chance="100000"><!-- bag -->
-			
-		<item id="2541" chance="2500"/><!-- bone shield -->
-		<item id="7381" chance="1750"/><!-- mammoth whopper -->
-		<item id="7441" chance="1000"/><!-- ice cube -->
-		<item id="7158" chance="900"/><!-- rainbow trout -->
-		<item id="7159" chance="700"/><!-- green perch -->
-		<item id="2669" chance="750"/><!-- northern pike -->
-			
-		</item>
-	</loot>
+    <item id="2148" countmax="20" chance="21850" /><!-- gold coin -->
+    <item id="2667" chance="20000" /><!-- fish -->
+    <item id="7158" chance="625" /><!-- rainbow trout -->
+    <item id="2406" chance="4300" /><!-- short sword -->
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+            <item id="2541" chance="1775" /><!-- bone shield -->
+            <item id="7159" chance="850" /><!-- green perch -->
+            <item id="7381" chance="850" /><!-- mammoth whopper -->
+            <item id="2669" chance="625" /><!-- northern pike -->
+        </inside>
+    </item>
+</loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

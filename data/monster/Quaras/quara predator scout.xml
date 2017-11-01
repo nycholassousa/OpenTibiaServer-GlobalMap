@@ -20,13 +20,10 @@
 	<attacks>
 		<attack name="melee" interval="2000" skill="30" attack="95"/>
 	</attacks>
-	<defenses armor="20" defense="29">
-		<defense name="healing" interval="1000" chance="15" min="113" max="180">
-			<attribute key="areaEffect" value="blueshimmer"/>
-		</defense>
-	</defenses>
+	<defenses armor="20" defense="29"/>
 	<elements>
-		<element energyPercent="-25"/>
+		<element energyPercent="-10"/>
+		<element earthPercent="-10"/>
 	</elements>
 	<immunities>
 		<immunity ice="1"/>
@@ -39,17 +36,36 @@
 		<voice sentence="Gnarrr!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="37" chance="100000"/><!-- gold coin -->
-		<item id="2226" chance="2000"/><!-- fishbone -->
-		<item id="2473" chance="3333"/><!-- viking helmet -->
-		<item id="2387" chance="2000"/><!-- double axe -->
-		<item id="2483" chance="2000"/><!-- scale armor -->
-		<item id="1987" chance="100000"><!-- bag -->
-			
-		<item id="2177" chance="1429"/><!-- life crystal -->
-		<item id="2145" chance="1429"/><!-- small diamond -->
-		<item id="5895" chance="2000"/><!-- fish fin -->
-			
-		</item>
-	</loot>
+    <item id="2148" countmax="42" chance="24250" /><!-- gold coin -->
+    <item id="2226" chance="10150" /><!-- fishbone -->
+    <item id="2387" chance="4300" /><!-- double axe -->
+    <item id="2473" chance="5800" /><!-- viking helmet -->
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+            <item id="2483" chance="5575" /><!-- scale armor -->
+            <item id="2145" chance="925" /><!-- small diamond -->
+            <item id="5895" chance="925" /><!-- fish fin -->
+        </inside>
+    </item>
+</loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

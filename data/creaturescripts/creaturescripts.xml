@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <creaturescripts>
+	<!-- Svargrond Arena: Killing a boss -->
+	<event type="kill" name="SvargrondArenaKill" script="quests/svargrond arena/arena_kill.lua" />
+
 	<!-- Default -->
 	<event type="login" name="PlayerLogin" script="login.lua" />
 	<event type="logout" name="PlayerLogout" script="logout.lua" />

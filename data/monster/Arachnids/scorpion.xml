@@ -25,6 +25,9 @@
 		<element earthPercent="100"/>
 		<element energyPercent="20"/>
 		<element firePercent="-10"/>
-		<element icePercent="-5"/>
+		<element icePercent="-1"/>
 	</elements>
+	<loot>
+		<item id="10568" chance="6250"/> <!-- scorpion tail -->
+	</loot>
 </monster>

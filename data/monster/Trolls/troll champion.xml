@@ -33,20 +33,35 @@
 		<voice sentence="Gruntz!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="12" chance="24250"/><!-- gold coin -->
-		<item id="2544" countmax="5" chance="2000"/><!-- arrow -->
-		<item id="2643" chance="15250"/><!-- leather boots -->
-		<item id="2666" chance="11500"/><!-- meat -->
-		<item id="1987" chance="100000"><!-- bag -->
-			
-		<item id="2389" chance="27000"/><!-- spear -->
-		<item id="2448" chance="5000"/><!-- studded club -->
-		<item id="2512" chance="20000"/><!-- wooden shield -->
-		<item id="2380" chance="20000"/><!-- hand axe -->
-		<item id="2461" chance="10000"/><!-- leather helmet -->
-		<item id="2120" chance="9000"/><!-- rope -->
-		<item id="2170" chance="100"/><!-- silver amulet -->
-			
-		</item>
-	</loot>
+    <item id="2389" chance="26050" /><!-- spear -->
+    <item id="2148" countmax="12" chance="35125" /><!-- gold coin -->
+    <item id="2643" chance="11925" /><!-- leather boots -->
+    <item id="2666" chance="14625" /><!-- meat -->
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+            <item id="2512" chance="16425" /><!-- wooden shield -->
+            <item id="2544" countmax="5" chance="3875" /><!-- arrow -->
+            <item id="10605" chance="3650" /><!-- bunch of troll hair -->
+            <item id="2448" chance="5875" /><!-- studded club -->
+        </inside>
+    </item>
+</loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>
