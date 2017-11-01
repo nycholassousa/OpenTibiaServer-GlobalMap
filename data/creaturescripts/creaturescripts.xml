@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <creaturescripts>
+	<!-- The New Frontier Quest -->
+	<event type="kill" name="NewFrontierShardOfCorruption" script="quests/the new frontier/ShardOfCorruption.lua" />
+	<event type="kill" name="NewFrontierTirecz" script="quests/the new frontier/TireczKill.lua" />
+
 	<!-- Elemental Spheres Quest -->
 	<event type="kill" name="ElementalSpheresOverlords" script="quests/elemental spheres/OverlordsKill.lua" />
 

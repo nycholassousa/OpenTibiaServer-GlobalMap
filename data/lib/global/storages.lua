@@ -39,6 +39,32 @@ Storage = {
 		QuestLine = 10000,
 		BossStorage = 10001,
 		MachineGemCount = 10002
+	},
+	TheNewFrontier = {
+		Questline = 12130, -- Storage through the Quest
+		Mission01 = 12131,
+		Mission02 = 12132,
+		Mission03 = 12133,
+		Mission04 = 12134,
+		Mission05 = 12135,
+		Mission06 = 12136,
+		Mission07 = 12137,
+		Mission08 = 12138,
+		Mission09 = 12139,
+		Mission10 = 12140,
+		
+		TomeofKnowledge = 12141,
+		
+		Beaver1 = 12142,
+		Beaver2 = 12143,
+		Beaver3 = 12144,
+		
+		BribeKing = 12145,
+		BribeLeeland = 12146,
+		BribeExplorerSociety = 12147,
+		BribeWydrin = 12148,
+		BribeTelas = 12149,
+		BribeHumgolf = 12150
 	}
 }
 

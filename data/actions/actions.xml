@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
+	<!-- The New Frontier Quest -->
+	<action uniqueid="3157" script="quests/the new frontier/arena.lua" />
+	<action itemid="11100" script="quests/the new frontier/beaver.lua" />
+	<action fromaid="8005" toaid="8006" script="quests/the new frontier/lever.lua" />
+	<action fromuid="3153" touid="3154" script="quests/the new frontier/vine.lua" />
+	<action uniqueid="3156" script="quests/the new frontier/retreat.lua" />
+
 	<!-- Elemental Spheres -->
 	<action uniqueid="23071" script="quests/elemental spheres/lever.lua" />
 	<action fromid="7911" toid="7912" script="quests/elemental spheres/machine.lua" />

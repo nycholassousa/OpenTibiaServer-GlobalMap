@@ -34,6 +34,8 @@ function onLogin(player)
 	player:registerEvent("DropLoot")
 	player:registerEvent("SvargrondArenaKill")
 	player:registerEvent("ElementalSpheresOverlords")
+	player:registerEvent("NewFrontierShardOfCorruption")
+	player:registerEvent("NewFrontierTirecz")
 	
 	return true
 end

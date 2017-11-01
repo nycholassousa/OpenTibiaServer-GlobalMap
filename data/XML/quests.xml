@@ -51,4 +51,76 @@
 				<missionstate id="2" description="You have defeated all enemies in this mode." />
 		</mission>
 	</quest>
+	
+	<!-- Elemental Spheres -->
+	<!-- Missing -->
+	
+	<!-- The New Frontier -->
+	<quest name="The New Frontier" startstorageid="12130" startstoragevalue="1">
+		<mission name="Mission 01: New Land" storageid="12131" startvalue="1" endvalue="3">
+			<missionstate id="1" description="Ongulf sends you to explore the passage to the east of farmine." />
+			<missionstate id="2" description="You have found the passage through the mountains and can report Ongulf about your success." />
+			<missionstate id="3" description="You already reported Ongulf your success! Ask Ongulf for new mission!" />
+		</mission>
+		<mission name="Mission 02: From Kazordoon With Love" storageid="12132" startvalue="1" endvalue="6">
+			<missionstate id="1" description="Ongulf will tell you that he needs to send a message to the dwarves in Kazordoon. Travel there and then walk to the Dwarf Mines to the west. Cross the two rivers and find Melfar." />
+			<missionstate id="2" description="Melfar gave you a Flask with Beaver Bait that you must use on the 3 trees(Trees will be marked on your map)." />
+			<missionstate id="3" description="You marked 1 of 3 trees with Beaver Bait in near the Dwarf Mines" />
+			<missionstate id="4" description="You marked 2 of 3 trees with Beaver Bait in near the Dwarf Mines" />
+			<missionstate id="5" description="You marked all 3 trees with Beaver Bait in near the Dwarf Mines. Return to talk to Melfar before heading back to Farmine." />
+			<missionstate id="6" description="Return to Ongulf and report your mission!" />
+		</mission>
+		<mission name="Mission 03: Strangers in the Night" storageid="12133" startvalue="1" endvalue="3">
+			<missionstate id="1" description="You need to find the tribe which lives in the mountains. Find some vines in this mountain, climb up there and find out who is spying on us!" />
+			<missionstate id="2" description="Return to Ongulf and report your mission about primitive humans." />
+			<missionstate id="3" description="You already reported Ongulf about primitive humans! Ask Ongulf for new mission!" />
+		</mission>
+		<mission name="Mission 04: The Mine Is Mine" storageid="12134" startvalue="1" endvalue="2">
+			<missionstate id="1" description="Head back to the levers and this time use the left one. Go North through the tunnel of Stone Golems. Kill the boss, Shard of Corruption at the end of the tunnel." />
+			<missionstate id="2" description="You killed the Shard of Corruption. Return to Ongulf and report your mission!" />
+		</mission>
+		<mission name="Mission 05: Getting Things Busy" storageid="12135" startvalue="1" endvalue="7">
+			<missionstate id="1" description="This mission consists of getting support from 6 people (King Tibianus in Thais, Leeland in Venore, Angus in Port Hope, Wyrdin in the Ivory Towers, Telas in Edron, Humgolf in Kazordoon  around Tibia. You need to ask for farmine and then you either need to Flatter, Threaten, Impress, Bluff, Reason or Plea him!" />
+			<missionstate id="2" description="You got support from 1 of 6 people, King Tibianus in Thais, Leeland in Venore, Angus in Port Hope, Wyrdin in the Ivory Towers, Telas in Edron and Humgolf in Kazordoon. You need to ask for farmine and then you either need to Flatter, Threaten, Impress, Bluff, Reason or Plea him!" />
+			<missionstate id="3" description="You got support from 2 of 6 people, King Tibianus in Thais, Leeland in Venore, Angus in Port Hope, Wyrdin in the Ivory Towers, Telas in Edron and Humgolf in Kazordoon. You need to ask for farmine and then you either need to Flatter, Threaten, Impress, Bluff, Reason or Plea him!" />
+			<missionstate id="4" description="You got support from 3 of 6 people, King Tibianus in Thais, Leeland in Venore, Angus in Port Hope, Wyrdin in the Ivory Towers, Telas in Edron and Humgolf in Kazordoon. You need to ask for farmine and then you either need to Flatter, Threaten, Impress, Bluff, Reason or Plea him!" />
+			<missionstate id="5" description="You got support from 4 of 6 people, King Tibianus in Thais, Leeland in Venore, Angus in Port Hope, Wyrdin in the Ivory Towers, Telas in Edron and Humgolf in Kazordoon. You need to ask for farmine and then you either need to Flatter, Threaten, Impress, Bluff, Reason or Plea him!" />
+			<missionstate id="6" description="You got support from 5 of 6 people, King Tibianus in Thais, Leeland in Venore, Angus in Port Hope, Wyrdin in the Ivory Towers, Telas in Edron and Humgolf in Kazordoon. You need to ask for farmine and then you either need to Flatter, Threaten, Impress, Bluff, Reason or Plea him!" />
+			<missionstate id="7" description="You got support from all needed people to help farmine! Return to Ongulf and report your mission!" />
+		</mission>
+		<mission name="Mission 06: Days Of Doom" storageid="12136" startvalue="1" endvalue="3">
+			<missionstate id="1" description="Go to Curos, leader of the Orcs, in the middle of the Zao Steppe in the north-east area of an Orc camp. Ask for a mission and accept it." />
+			<missionstate id="2" description="Enter the ring of battle, close to Curos quarter. Face Mooh'Tah Master in a battle and survive for two minutes. Return to him after you have passed this test." />
+			<missionstate id="3" description="You passed the test of Curos. Return to Ongulf and report your mission!" />
+		</mission>
+		<mission name="Mission 07: Messengers Of Peace" storageid="12137" startvalue="1" endvalue="3">
+			<missionstate id="1" description="You now have to contact the Lizards, the real rulers of Zao. Find them, contact them, talk to them, scare them, bribe them, whatever." />
+			<missionstate id="2" description="You have been trapped! Find a way out!" />
+			<missionstate id="3" description="You found the Lizards!" />
+		</mission>
+		<mission name="Mission 08: An Offer You Can't Refuse" storageid="12138" startvalue="1" endvalue="2">
+			<missionstate id="1" description="Take the boat at the northern of Dragonblaze Peaks to tournament Isle. Ask Zurak for a passage. There you'll learn anything you need to know about the great tournament. Ask there Chrak for the battle." />
+			<missionstate id="2" description="You agreed the Offer." />
+		</mission>
+		<mission name="Mission 09: Mortal Combat" storageid="12139" startvalue="1" endvalue="3">
+			<missionstate id="1" description="You have to go into the Arena with another player, because 2 players are needed, at the same time, to enter. Choose your companion wisely!" />
+			<missionstate id="2" description="You have won! Report Chrak your mission about the battle." />
+			<missionstate id="3" description="Go back to Farmine and talk to Ongulf about your mission." />
+		</mission>
+		<mission name="Mission 10: New Horizons" storageid="12140" startvalue="1" endvalue="1" description="You now have permission to use the Magic Carpet on the mountain above Farmine, Cael now accepts more Tomes of Knowledge from you and you got the Warmaster Outfit!" />
+		<mission name="Tome of Knowledge Counter" storageid="12141" startvalue="1" endvalue="12">
+			<missionstate id="1" description="You brought the fist Tome of Knowledge to Cael. He learnt more about the lizard culture. Pompan will sell you dragon tapestries from now on." />
+			<missionstate id="2" description="You brought the second Tome of Knowledge to Cael. He learnt more about the minotaur culture. Pompan will sell you minotaur backpacks from now on." />
+			<missionstate id="3" description="You brought the third Tome of Knowledge to Cael. He learnt more about the last stand of the draken culture. Esrik will sell you lizard weapon rack from now on." />
+			<missionstate id="4" description="You brought the fourth Tome of Knowledge to Cael. He learnt something interesting about a certain food that the lizardmen apparently prepare. Swolt will trade you a bunch of ripe rice for 10 rice balls from now on." />
+			<missionstate id="5" description="You brought the fifth Tome of Knowledge to Cael. He learnt more about the last stand of the lizards in the South, Zzaion. Pompan will sell you lizard backpacks from now on." />
+			<missionstate id="6" description="You brought the sixth Tome of Knowledge to Cael. He learnt a few things about the primitive human culture on this continent. Cael will sell you War Drums and Didgeridoo from now on." />
+			<missionstate id="7" description="You brought the seventh Tome of Knowledge to Cael. He learnt something interesting about the Zao steppe. Now you to use the snake teleport at the peak of the mountain." />
+			<missionstate id="8" description="You brought the eighth Tome of Knowledge to Cael. He learnt a few things about an illness. Now you can enter a corruption hole in the north-eastern end of Zao." />
+			<missionstate id="9" description="You brought the ninth Tome of Knowledge to Cael. He learnt something interesting about the Draken origin. Esrik will buy lizard equipment from you now." />
+			<missionstate id="10" description="You brought the tenth Tome of Knowledge to Cael. He learnt more about the last stand of the lizard dynasty. Now you can enter the Zao Palace. It is situated deep underground, below the mountain base of the Lizards." />
+			<missionstate id="11" description="You brought the eleventh Tome of Knowledge to Cael. He learnt something interesting about dragons and their symbolism. You can buy a Dragon Statue from NPC Cael after you bring him a Red Lantern." />
+			<missionstate id="12" description="You brought the twelfth Tome of Knowledge to Cael. He learnt something about reveals some of the power structures in Zao. Cael will now make a Dragon Throne for you after you bring him a Red Piece of Cloth. He will reward you with 5000 experience points for each extra tome you give to him." />
+		</mission>
+	</quest>
 </quests>
