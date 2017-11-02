@@ -166,4 +166,25 @@
 			<missionstate id="2" description="You have already absorbed some of Bazir's spirit."/>
 		</mission>
 	</quest>
+	
+	<!-- Sea of Light -->
+	<quest name="Sea of Light" startstorageid="50250" startstoragevalue="1">
+		<mission name="Mission 1: The Plans" storageid="50251" startvalue="1" endvalue="4">
+			<missionstate id="1" description="Spectulus in Edron has sent you on a mission to find out the whereabouts of a certain inventor. A beggar in Edron seems to know more about this topic than he wants to tell." />
+			<missionstate id="2" description="The beggar turned out to be the inventor himself. You successfully convinced him to give you the only remaining plans of his creation. You should return to Spectulus in Edron to tell him the news." />
+			<missionstate id="3" description="You gave the plans to the astronomer. He began reconstructing the invention as soon as he got ahold of them. It will take a while for him to work out the problem which caused the initial failure." />
+			<missionstate id="4" description="You returned to Speculus who finally worked out the failure of the initial construction. He recapitulated the plans and needs only one item before he can start building the magic device." />
+		</mission>
+		<mission name="Mission 2: The Collector" storageid="50252" startvalue="1" endvalue="3">
+			<missionstate id="1" description="Spectulus asked you to enter the Lost Mines beneath Edron and recover a rare crystal. In exchange for it you will gain access to the lair of the Collector who guards a vital component of the device." />
+			<missionstate id="2" description="Luckily, you survived the horrors of the Lost Mines and recovered a rare crystal. You should visit Spectulus in Edron to seek counsel on what to do next." />
+			<missionstate id="3" description="You returned to astronomer Spectulus and gave him the rare crystal." />
+		</mission>
+		<mission name="Mission 3: The Mirror Crystal" storageid="50253" startvalue="1" endvalue="4">
+			<missionstate id="1" description="In order to access the lair of the Collector, you will need to find the creature's well on an ice isle near Carlin. To donate the rare crystal overcome your greed and use it at the well's pedestal." />
+			<missionstate id="2" description="You offered the rare crystal to the creature and can now enter the Collector's lair. Its crystal chamber cannot be accessed by outsiders. You need to find a way to snatch the Mirror Crystal." />
+			<missionstate id="3" description="The Collector has been defeated. You packed the fragile Mirror Crystal into the device Spectulus gave you. All yo have to do now is to return to the astronomer and to present him your acquisition." />
+			<missionstate id="4" description="It may have been the excitement or simple nervousness but as soon as Spectulus removed the crystal, it somehow slipped. Unfinishable for all eternity, the device left yet another scholar in despair." />
+		</mission>
+	</quest>
 </quests>

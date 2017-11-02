@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
+	<!-- Sea of Light Quest -->
+	<action itemid="10614" script="quests/sea of light/rareCrystal.lua" />
+	<action itemid="10615" script="quests/sea of light/collectorCorpse.lua" />
+	<action actionid="4225" script="quests/sea of light/iceCube.lua" />
+
 	<!-- Pits Of Inferno Quest -->
 	<action actionid="8815" script="quests/pits of inferno/fountain.lua" />
 	<action actionid="2022" script="quests/pits of inferno/goshnar.lua" />

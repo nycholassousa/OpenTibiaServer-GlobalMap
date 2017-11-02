@@ -81,6 +81,14 @@ Storage = {
 		ThroneBazir = 2084,
 		ThroneAshfalor = 2085,
 		ThronePumin = 2086
+	},
+	SeaOfLightQuest = {
+		Questline = 50250,
+		Mission1 = 50251,
+		Mission2 = 50252,
+		Mission3 = 50253,
+		StudyTimer = 50254,
+		LostMinesCrystal = 50255
 	}
 }
 
