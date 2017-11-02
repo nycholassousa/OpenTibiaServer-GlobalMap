@@ -13,6 +13,7 @@ Storage = {
 	},
 	VampireShieldDone = 5001,
 	AnnihilatorDone = 5000,
+	FireAxeDone = 5002,
 	DemonHelmetDone = 100136,
 	BehemothDone = 100104,
 	SvargrondArena = {

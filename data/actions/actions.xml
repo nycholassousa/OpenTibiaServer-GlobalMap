@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
+	<!-- Fire Axe Quest -->
+	<action actionid="2003" script="quests/system.lua"/>
+
 	<!-- Sea of Light Quest -->
 	<action itemid="10614" script="quests/sea of light/rareCrystal.lua" />
 	<action itemid="10615" script="quests/sea of light/collectorCorpse.lua" />
