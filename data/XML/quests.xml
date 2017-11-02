@@ -187,4 +187,11 @@
 			<missionstate id="4" description="It may have been the excitement or simple nervousness but as soon as Spectulus removed the crystal, it somehow slipped. Unfinishable for all eternity, the device left yet another scholar in despair." />
 		</mission>
 	</quest>
+	
+	<!-- Fire Axe Quest -->
+	<quest name="Fire Axe Quest" startstorageid="5000" startstoragevalue="1">
+		<mission name="Fire Axe Founded" storageid="5000" startvalue="1" endvalue="1">
+				<missionstate id="1" description="You faced the dragons and were rewarded for your effort."/>
+		</mission>
+	</quest>
 </quests>
