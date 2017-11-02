@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <movements>
+	<!-- Pits Of Inferno Quest -->
+	<movevent event="StepIn" fromuid="2090" touid="2096" script="quests/pits of inferno/checkThrones.lua" />
+	<movevent event="StepIn" fromaid="2040" toaid="2063" script="quests/pits of inferno/fireTiles.lua" />
+	<movevent event="StepIn" uniqueid="2002" script="quests/pits of inferno/ladder.lua" />
+	<movevent event="StepOut" uniqueid="2002" script="quests/pits of inferno/ladder.lua" />
+	<movevent event="StepIn" actionid="4001" script="quests/pits of inferno/stone.lua" />
+	<movevent event="StepIn" actionid="4002" script="quests/pits of inferno/drawbridge.lua" />
+	<movevent event="StepOut" actionid="4002" script="quests/pits of inferno/drawbridge.lua" />
+	<movevent event="StepIn" fromaid="8816" toaid="8817" script="quests/pits of inferno/shortcuts.lua" />
+	<movevent event="StepIn" fromuid="2080" touid="2086" script="quests/pits of inferno/thrones.lua" />
+	<movevent event="StepIn" fromuid="2000" touid="2001" script="quests/pits of inferno/tibleTile.lua" />
+	<movevent event="StepIn" fromaid="28810" toaid="28834" script="quests/pits of inferno/tileTeleports.lua" />
+	<movevent event="StepIn" actionid="7799" script="quests/pits of inferno/trap.lua" />
+	<movevent event="StepIn" uniqueid="3303" script="quests/pits of inferno/secondTrap.lua" />
+	<movevent event="StepIn" fromaid="16772" toaid="16774" script="quests/pits of inferno/bazirTiles.lua" />
+	<movevent event="StepIn" fromaid="50082" toaid="50083" script="quests/pits of inferno/bazirTiles.lua" />
+	<movevent event="StepIn" actionid="50087" script="quests/pits of inferno/puminTeleport.lua" />
+
 	<!--- The New Frontier Quest -->
 	<movevent event="StepIn" actionid="8000" script="quests/the new frontier/wayOut.lua" />
 	<movevent event="StepIn" actionid="8007" script="quests/the new frontier/trap.lua" />

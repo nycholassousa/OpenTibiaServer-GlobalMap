@@ -66,10 +66,26 @@ Storage = {
 		BribeWydrin = 12148,
 		BribeTelas = 12149,
 		BribeHumgolf = 12150
+	},
+	PitsOfInferno = {
+		ShortcutHub = 8819,
+		ShortcutLevers = 8818,
+		Pumin = 50096,
+
+		WeaponReward = 10544,
+
+		ThroneInfernatil = 2080,
+		ThroneTafariel = 2081,
+		ThroneVerminor = 2082,
+		ThroneApocalypse = 2083,
+		ThroneBazir = 2084,
+		ThroneAshfalor = 2085,
+		ThronePumin = 2086
 	}
 }
 
 GlobalStorage = {
+	PitsOfInfernoLevers = 1000,
 	ElementalSphere = {
 		BossRoom = 10004,
 

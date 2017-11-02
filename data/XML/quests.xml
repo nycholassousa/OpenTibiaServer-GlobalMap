@@ -130,4 +130,40 @@
 				<missionstate id="1" description="You knew how to explore and found a great reward for that."/>
 		</mission>
 	</quest>
+	
+	<!-- Pits of Inferno -->
+	<quest name="The Pits of Inferno" startstorageid="100095" startstoragevalue="1">
+		<mission name="Acces to shortcuts" storageid="100096" startvalue="1" endvalue="2">
+			<missionstate id="1" description="At the end of this quest you will be able to use shortcuts."/>
+			<missionstate id="2" description="Unlocked shortcut and now do not have to move all the 15 lever and you can use the teleport in the necromancer's house."/>
+		</mission>
+		<mission name="Thrones: Verminor" storageid="2082" startvalue="1" endvalue="2">
+			<missionstate id="1" description="You have to find the throne of Veminor and absorb it's spirit."/>
+			<missionstate id="2" description="You have already absorbed some of Veminor's spirit."/>
+		</mission>
+		<mission name="Thrones: Infernatil" storageid="2080" startvalue="1" endvalue="2">
+			<missionstate id="1" description="You have to find the throne of Infernatil and absorb it's spirit."/>
+			<missionstate id="2" description="You have already absorbed some of Infernatil's spirit."/>
+		</mission>
+		<mission name="Thrones: Tafariel" storageid="2081" startvalue="1" endvalue="2">
+			<missionstate id="1" description="You have to find the throne of Tafariel and absorb it's spirit."/>
+			<missionstate id="2" description="You have already absorbed some of Tafariel's spirit."/>
+		</mission>
+		<mission name="Thrones: Apocalypse" storageid="2083" startvalue="1" endvalue="2">
+			<missionstate id="1" description="You have to find the throne of Apocalypse and absorb it's spirit."/>
+			<missionstate id="2" description="You have already absorbed some of Apocalypse's spirit."/>
+		</mission>
+		<mission name="Thrones: Pumin" storageid="2086" startvalue="1" endvalue="2">
+			<missionstate id="1" description="You have to find the throne of Pumin and absorb it's spirit."/>
+			<missionstate id="2" description="You have already absorbed some of Pumin's spirit."/>
+		</mission>
+		<mission name="Thrones: Ashfalor" storageid="2085" startvalue="1" endvalue="2">
+			<missionstate id="1" description="You have to find the throne of Ashfalor and absorb it's spirit."/>
+			<missionstate id="2" description="You have already absorbed some of Ashfalor's spirit."/>
+		</mission>
+		<mission name="Thrones: Bazir" storageid="2084" startvalue="1" endvalue="2">
+			<missionstate id="1" description="You have to find the throne of Bazir and absorb it's spirit."/>
+			<missionstate id="2" description="You have already absorbed some of Bazir's spirit."/>
+		</mission>
+	</quest>
 </quests>
