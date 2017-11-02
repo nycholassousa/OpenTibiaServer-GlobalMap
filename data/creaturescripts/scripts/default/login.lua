@@ -36,6 +36,7 @@ function onLogin(player)
 	player:registerEvent("ElementalSpheresOverlords")
 	player:registerEvent("NewFrontierShardOfCorruption")
 	player:registerEvent("NewFrontierTirecz")
+	player:registerEvent("KillingInTheNameOfKills")
 	
 	return true
 end

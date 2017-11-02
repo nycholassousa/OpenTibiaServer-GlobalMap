@@ -8,3 +8,4 @@ dofile('data/lib/compat/compat.lua')
 dofile('data/lib/global/storages.lua')  -- Storages Lib
 dofile('data/lib/global/oakPosition.lua')  -- Demon Oak Positions
 dofile('data/lib/global/svargrondArenaQuest.lua') -- Svarground Arena Quest
+dofile('data/lib/global/killingInTheNameOfQuest.lua') -- Killing in the name of LIB

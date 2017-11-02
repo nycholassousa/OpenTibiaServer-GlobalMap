@@ -11,11 +11,17 @@ Storage = {
 		AxeBlowsRight = 8290,
 		AxeBlowsFace = 8291
 	},
+	
 	VampireShieldDone = 5001,
+	
 	AnnihilatorDone = 5000,
+	
 	FireAxeDone = 5002,
+	
 	DemonHelmetDone = 100136,
+	
 	BehemothDone = 100104,
+	
 	SvargrondArena = {
 		Arena = 1100,
 		Pit = 1101,
@@ -37,11 +43,13 @@ Storage = {
 		Scrapper = 27100,
 		Warlord = 28100
 	},
+	
 	ElementalSphere = {
 		QuestLine = 10000,
 		BossStorage = 10001,
 		MachineGemCount = 10002
 	},
+	
 	TheNewFrontier = {
 		Questline = 12130, -- Storage through the Quest
 		Mission01 = 12131,
@@ -68,6 +76,7 @@ Storage = {
 		BribeTelas = 12149,
 		BribeHumgolf = 12150
 	},
+	
 	PitsOfInferno = {
 		ShortcutHub = 8819,
 		ShortcutLevers = 8818,
@@ -83,6 +92,7 @@ Storage = {
 		ThroneAshfalor = 2085,
 		ThronePumin = 2086
 	},
+	
 	SeaOfLightQuest = {
 		Questline = 50250,
 		Mission1 = 50251,
@@ -90,11 +100,23 @@ Storage = {
 		Mission3 = 50253,
 		StudyTimer = 50254,
 		LostMinesCrystal = 50255
-	}
+	},
+	
+	KillingInTheNameOf = {
+		LugriNecromancers = 50000,
+		LugriNecromancerCount = 50001,
+
+		MissionTiquandasRevenge = 22222,
+		TiquandasRevengeTeleport = 22555,
+		MissionDemodras = 22223,
+		DemodrasTeleport = 22556
+
+	},
 }
 
 GlobalStorage = {
 	PitsOfInfernoLevers = 1000,
+	
 	ElementalSphere = {
 		BossRoom = 10004,
 

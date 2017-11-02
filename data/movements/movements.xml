@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <movements>
+	<!-- KillingOfTheNameOf -->
+	<movevent event="StepIn" fromuid="3230" touid="3259" script="quests/killing in the name of/boss.lua" />
+	<movevent event="StepIn" fromuid="17521" touid="17522" script="quests/killing in the name of/boss.lua" />
+
 	<!-- Pits Of Inferno Quest -->
 	<movevent event="StepIn" fromuid="2090" touid="2096" script="quests/pits of inferno/checkThrones.lua" />
 	<movevent event="StepIn" fromaid="2040" toaid="2063" script="quests/pits of inferno/fireTiles.lua" />
