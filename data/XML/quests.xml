@@ -310,4 +310,10 @@
 		<mission name="Paw and Fur: Necromancers and Priestess Second" storageid="65050" startvalue="0" endvalue="1000" description="You already hunted |STATE|/1000 necromancers and priestess." />
 	</quest>
 	
+	<!-- Medusa Shield Quest -->
+	<quest name="Medusa Shield Quest" startstorageid="5003" startstoragevalue="1">
+		<mission name="Medusa Shield" storageid="5003" startvalue="1" endvalue="1">
+				<missionstate id="1" description="You faced the undead boldly, making yourself worthy of this reward."/>
+		</mission>
+	</quest>
 </quests>

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
+	<!-- Medusa Shield Quest -->
+	<action actionid="2004" script="quests/system.lua"/>
+	
 	<!-- Fire Axe Quest -->
 	<action actionid="2003" script="quests/system.lua"/>
 

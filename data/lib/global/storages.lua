@@ -12,6 +12,8 @@ Storage = {
 		AxeBlowsFace = 8291
 	},
 	
+	MedusaShieldDone = 5003,
+	
 	VampireShieldDone = 5001,
 	
 	AnnihilatorDone = 5000,
