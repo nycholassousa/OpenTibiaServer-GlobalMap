@@ -19,19 +19,19 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="30" attack="80"/>
-		<attack name="physical" interval="2000" chance="15" range="7" min="-0" max="-100">
+		<attack name="physical" interval="3000" chance="17" range="4" min="-0" max="-80">
 			<attribute key="shootEffect" value="throwingknife"/>
 		</attack>
 	</attacks>
 	<defenses armor="25" defense="23"/>
 	<elements>
-		<element earthPercent="10"/>
-		<element holyPercent="10"/>
-		<element deathPercent="-5"/>
-		<element firePercent="-5"/>
-		<element energyPercent="-5"/>
-		<element icePercent="-5"/>
-		<element physicalPercent="-5"/>
+		<element earthPercent="25"/>
+		<element holyPercent="20"/>
+		<element deathPercent="-7"/>
+		<element firePercent="-10"/>
+		<element energyPercent="-10"/>
+		<element icePercent="-10"/>
+		<element physicalPercent="-11"/>
 	</elements>
 	<immunities>
 		<immunity invisible="1"/>
@@ -42,43 +42,25 @@
 		<voice sentence="Plundeeeeer!"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="59" chance="27550" /><!-- gold coin -->
-    <item id="6095" chance="1500" /><!-- pirate shirt -->
-    <item id="2385" chance="10825" /><!-- sabre -->
-    <item id="11213" chance="11775" /><!-- compass -->
-    <item id="2050" chance="10300" /><!-- torch -->
-    <item id="2410" countmax="5" chance="6000" /><!-- throwing knife -->
-    <item id="5091" chance="1850" /><!-- treasure map -->
-    <item id="2238" chance="10400" /><!-- worn leather boots -->
-    <item id="5926" chance="850" /><!-- pirate backpack -->
-    <item id="1987" chance="100000"><!-- bag -->
-        <inside>
-            <item id="6097" chance="1075" /><!-- hook -->
-            <item id="6098" chance="925" /><!-- eye patch -->
-            <item id="2513" chance="4400" /><!-- battle shield -->
-            <item id="7588" chance="625" /><!-- strong health potion -->
-            <item id="2463" chance="1150" /><!-- plate armor -->
-            <item id="6126" chance="850" /><!-- peg leg -->
-            <item id="5792" chance="575" /><!-- dice -->
-            <item id="5553" chance="550" /><!-- rum flask -->
-        </inside>
-    </item>
-</loot>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		<item id="2148" countmax="59" chance="26500"/><!-- gold coin -->
+		<item id="2410" countmax="6" chance="4000"/><!-- throwing knife -->
+		<item id="2385" chance="10750"/><!-- sabre -->
+		<item id="2238" chance="9750"/><!-- worn leather boots -->
+		<item id="2050" chance="8800"/><!-- torch -->
+		<item id="2376" chance="5000"/><!-- sword -->
+		<item id="2513" chance="3500"/><!-- battle shield -->
+		<item id="5091" chance="1100"/><!-- treasure map -->
+		<item id="1987" chance="100000"><!-- bag -->
+			
+		<item id="6095" chance="1000"/><!-- pirate shirt -->
+		<item id="2463" chance="950"/><!-- plate armor -->
+		<item id="6126" chance="600"/><!-- peg leg -->
+		<item id="6098" chance="600"/><!-- eye patch -->
+		<item id="7588" chance="500"/><!-- strong health potion -->
+		<item id="6097" chance="600"/><!-- hook -->
+		<item id="5926" chance="500"/><!-- pirate backpack -->
+		<item id="5792" chance="50"/><!-- dice -->
+			
+		</item>
+	</loot>
 </monster>

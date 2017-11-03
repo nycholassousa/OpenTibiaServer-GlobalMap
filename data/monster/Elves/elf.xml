@@ -19,7 +19,7 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="10" attack="15"/>
-		<attack name="physical" interval="2000" chance="10" range="7" target="1" min="-0" max="-25">
+		<attack name="physical" interval="1000" chance="5" range="7" min="-15" max="-35">
 			<attribute key="shootEffect" value="arrow"/>
 		</attack>
 	</attacks>
@@ -39,37 +39,18 @@
 		<voice sentence="Death to the defilers!"/>
 	</voices>
 	<loot>
-    <item id="2544" countmax="3" chance="5800" /><!-- arrow -->
-    <item id="8839" countmax="2" chance="17100" /><!-- plum -->
-    <item id="2148" countmax="30" chance="25650" /><!-- gold coin -->
-    <item id="2484" chance="10600" /><!-- studded armor -->
-    <item id="2482" chance="16500" /><!-- studded helmet -->
-    <item id="2510" chance="10475" /><!-- plate shield -->
-    <item id="1987" chance="100000"><!-- bag -->
-        <inside>
-            <item id="2643" chance="12400" /><!-- leather boots -->
-            <item id="2397" chance="14450" /><!-- longsword -->
-            <item id="10551" chance="3375" /><!-- elvish talisman -->
-            <item id="5921" chance="1525" /><!-- heaven blossom -->
-        </inside>
-    </item>
-</loot>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		<item id="2148" countmax="30" chance="25000"/><!-- gold coin -->
+		<item id="2544" countmax="6" chance="2250"/><!-- arrow -->
+		<item id="2674" countmax="2" chance="15000"/><!-- red apple -->
+		<item id="2397" chance="12000"/><!-- longsword -->
+		<item id="2643" chance="12500"/><!-- leather boots -->
+		<item id="1987" chance="100000"><!-- bag -->
+			
+				<item id="2510" chance="9000"/><!-- plate shield -->
+				<item id="2484" chance="9000"/><!-- studded armor -->
+				<item id="2482" chance="13500"/><!-- studded helmet -->
+				<item id="5921" chance="1000"/><!-- heaven blossom -->
+			
+		</item>
+	</loot>
 </monster>

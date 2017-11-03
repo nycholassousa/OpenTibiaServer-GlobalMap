@@ -22,35 +22,18 @@
 	</attacks>
 	<defenses armor="13" defense="5"/>
 	<elements>
-		<element earthPercent="20"/>
-		<element icePercent="10"/>
-		<element energyPercent="-5"/>
+		<element earthPercent="25"/>
+		<element icePercent="18"/>
+		<element energyPercent="-6"/>
 		<element firePercent="-10"/>
-		<element physicalPercent="-5"/>
+		<element physicalPercent="-14"/>
 	</elements>
 	<loot>
-    <item id="2671" chance="39325" /><!-- ham -->
-    <item id="2148" countmax="10" chance="28775" /><!-- gold coin -->
-    <item id="11190" chance="19125" /><!-- piece of crocodile leather -->
-    <item id="3982" chance="625" /><!-- crocodile boots -->
-</loot>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		<item id="2148" countmax="15" chance="17500"/><!-- gold coin -->
+		<item id="2467" chance="7450"/><!-- leather helmet -->
+		<item id="2671" countmax="2" chance="15000"/><!-- ham -->
+		<item id="2666" countmax="4" chance="20000"/><!-- meat -->
+		<item id="2649" chance="8250"/><!-- leather legs-->
+		<item id="3982" chance="400"/><!-- crocodile boots -->
+	</loot>
 </monster>

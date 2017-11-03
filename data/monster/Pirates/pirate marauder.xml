@@ -20,17 +20,17 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="60" attack="40"/>
-		<attack name="physical" interval="2000" chance="15" range="7" min="-0" max="-40">
+		<attack name="physical" interval="2000" chance="20" range="7" min="-0" max="-65">
 			<attribute key="shootEffect" value="spear"/>
 		</attack>
 	</attacks>
 	<defenses armor="15" defense="20"/>
 	<elements>
-		<element earthPercent="10"/>
-		<element holyPercent="20"/>
-		<element deathPercent="-5"/>
-		<element firePercent="-10"/>
-		<element energyPercent="-3"/>
+		<element earthPercent="16"/>
+		<element holyPercent="15"/>
+		<element deathPercent="-7"/>
+		<element firePercent="-8"/>
+		<element energyPercent="-10"/>
 	</elements>
 	<immunities>
 		<immunity invisible="1"/>
@@ -41,43 +41,24 @@
 		<voice sentence="Hiyaa!"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="40" chance="30950" /><!-- gold coin -->
-    <item id="5927" chance="1075" /><!-- pirate bag -->
-    <item id="2050" chance="9900" /><!-- torch -->
-    <item id="2464" chance="3350" /><!-- chain armor -->
-    <item id="11213" chance="10725" /><!-- compass -->
-    <item id="6097" chance="1050" /><!-- hook -->
-    <item id="2389" countmax="2" chance="4025" /><!-- spear -->
-    <item id="5091" chance="1450" /><!-- treasure map -->
-    <item id="1987" chance="100000"><!-- bag -->
-        <inside>
-            <item id="6126" chance="1050" /><!-- peg leg -->
-            <item id="2510" chance="5550" /><!-- plate shield -->
-            <item id="5917" chance="1500" /><!-- bandana -->
-            <item id="5553" chance="550" /><!-- rum flask -->
-            <item id="6098" chance="1000" /><!-- eye patch -->
-            <item id="5929" chance="675" /><!-- goldfish bowl -->
-            <item id="5792" chance="600" /><!-- dice -->
-        </inside>
-    </item>
-</loot>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		<item id="2148" countmax="60" chance="20000"/><!-- gold coin -->
+		<item id="2376" chance="9750"/><!-- sword -->
+		<item id="2050" chance="9250"/><!-- torch -->
+		<item id="2389" countmax="2" chance="4000"/><!-- spear -->
+		<item id="2510" chance="4800"/><!-- plate shield -->
+		<item id="2464" chance="2750"/><!-- chain armor -->
+		<item id="1987" chance="100000"><!-- bag -->
+			
+		<item id="5091" chance="1125"/><!-- treasure map -->
+		<item id="5917" chance="1100"/><!-- bandana-->
+		<item id="6126" chance="600"/><!-- peg leg -->
+		<item id="6097" chance="600"/><!-- hook -->
+		<item id="6098" chance="600"/><!-- eye patch -->
+		<item id="5553" chance="100"/><!-- rum flask -->
+		<item id="5928" chance="200"/><!-- empty goldfish bowl -->
+		<item id="5792" chance="50"/><!-- dice -->		
+		<item id="5927" chance="500"/><!-- pirate bag -->
+			
+		</item>
+	</loot>
 </monster>

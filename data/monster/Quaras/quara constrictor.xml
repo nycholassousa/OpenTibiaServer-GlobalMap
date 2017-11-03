@@ -18,22 +18,19 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="50" attack="50" poison="20"/>
-		<attack name="lifedrain" interval="2000" chance="11" radius="3" target="0" min="-50" max="-90">
+		<attack name="melee" interval="2000" skill="50" attack="50"/>
+		<attack name="melee" interval="1000" chance="10" range="7" radius="3" target="0" min="-95" max="-155">
 			<attribute key="areaEffect" value="blackspark"/>
 		</attack>
-		<attack name="ice" interval="2000" chance="12" range="7" min="-40" max="-70" target="0" radius="4">
-			<attribute key="areaEffect" value="iceattack"/>
-		</attack> 	
-		<attack name="energycondition" interval="2000" chance="10" min="-75" max="-75" range="1" target="1">
-			<attribute key="shootEffect" value="energy"/>
+		<attack name="poisonfield" interval="1000" chance="35" range="7" radius="2" target="0">
+			<attribute key="shootEffect" value="poison"/>
 		</attack>
 	</attacks>
 	<defenses armor="15" defense="15"/>
 	<elements>
 		<element firePercent="100"/>
 		<element icePercent="100"/>
-		<element earthPercent="-10"/>
+		<element earthPercent="-12"/>
 		<element energyPercent="-25"/>
 	</elements>
 	<immunities>
@@ -48,36 +45,18 @@
 		<voice sentence="Boohaa!"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="100" chance="29000" /><!-- gold coin -->
-    <item id="2397" chance="5500" /><!-- longsword -->
-    <item id="2150" chance="775" /><!-- small amethyst -->
-    <item id="2460" chance="10400" /><!-- brass helmet -->
-    <item id="1987" chance="100000"><!-- bag -->
-        <inside>
-            <item id="2465" chance="2500" /><!-- brass armor -->
-            <item id="2670" chance="5475" /><!-- shrimp -->
-            <item id="5895" chance="1025" /><!-- fish fin -->
-            <item id="2406" chance="7075" /><!-- short sword -->
-        </inside>
-    </item>
-</loot>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		<item id="2148" countmax="48" chance="34000"/><!-- gold coin -->
+		<item id="2148" countmax="45" chance="34000"/><!-- gold coin -->
+		<item id="2406" chance="7200"/><!-- short sword -->
+		<item id="2465" chance="2500"/><!-- brass armor -->
+		<item id="2460" chance="7500"/><!-- brass helmet -->
+		<item id="1987" chance="100000"><!-- bag -->
+			
+		<item id="2397" chance="4600"/><!-- longsword -->
+		<item id="2670" countmax="5" chance="1000"/><!-- shrimp -->
+		<item id="5895" chance="2000"/><!-- fish fin -->
+		<item id="2150" chance="1000"/><!-- small amethyst -->
+			
+		</item>
+	</loot>
 </monster>

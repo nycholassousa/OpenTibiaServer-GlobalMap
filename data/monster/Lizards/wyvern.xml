@@ -52,9 +52,13 @@
 		<item id="2547" countmax="2" chance="3000"/><!-- power bolt -->
 		<item id="2146" chance="1000" /><!-- small sapphire -->
 		<item id="7588" chance="3000"/><!-- strong health potion -->
-		<item id="2187" chance="1000"/><!-- wand of inferno -->
-		<item id="7408" chance="750"/><!-- wydern fang -->
-		<item id="1976" chance="5000"/><!-- gemmed book -->
-		<item id="2127" chance="300"/><!-- emerald bangle -->
+		<item id="1987" chance="100000"><!-- bag -->
+			
+				<item id="2187" chance="1000"/><!-- wand of inferno -->
+				<item id="7408" chance="750"/><!-- wydern fang -->
+				<item id="1976" chance="5000"/><!-- gemmed book -->
+				<item id="2127" chance="300"/><!-- emerald bangle -->
+			
+		</item>
 	</loot>
 </monster>

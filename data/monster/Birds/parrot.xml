@@ -37,4 +37,6 @@
 		<voice sentence="You powerrrrrrabuserrrrr!"/>
 		<voice sentence="You advanshed, you advanshed!"/>
 	</voices>
+	<loot>
+	</loot>
 </monster>

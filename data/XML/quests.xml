@@ -24,14 +24,14 @@
 	
 	<!-- Demon Helmet Quest -->
 	<quest name="Demon Helmet Quest" startstorageid="100136" startstoragevalue="1">
-		<mission name="Demon" storageid="100136" startvalue="1" endvalue="1">
+		<mission name="Demon Helmet Quest" storageid="100136" startvalue="1" endvalue="1">
 				<missionstate id="1" description="You have completed Demon Helmet Quest."/>
 		</mission> 
 	</quest> 
 	
 	<!-- Behemoth Quest -->
 	<quest name="Behemoth Quest" startstorageid="100104" startstoragevalue="1">
-		<mission name="Behemoth" storageid="100104" startvalue="1" endvalue="1">
+		<mission name="Behemoth Quest" storageid="100104" startvalue="1" endvalue="1">
 				<missionstate id="1" description="You have completed getting through the Behemoth's."/>
 		</mission>
 	</quest>
