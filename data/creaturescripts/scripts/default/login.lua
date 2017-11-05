@@ -3,6 +3,7 @@ function onLogin(player)
 	if player:getLastLoginSaved() <= 0 then
 		loginStr = loginStr .. " Please choose your outfit."
 		player:sendOutfitWindow()
+		player:setBankBalance(0)
 	else
 		if loginStr ~= "" then
 			player:sendTextMessage(MESSAGE_STATUS_DEFAULT, loginStr)
