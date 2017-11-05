@@ -316,4 +316,18 @@
 				<missionstate id="1" description="You faced the undead boldly, making yourself worthy of this reward."/>
 		</mission>
 	</quest>
+	
+	<!-- Crystal Wand Quest -->
+	<quest name="Crystal Wand Quest" startstorageid="5004" startstoragevalue="1">
+		<mission name="Crystal Wand" storageid="5004" startvalue="1" endvalue="1">
+				<missionstate id="1" description="An old wand, a current treasure. Guarded in the depths of a place once glorious but now forgotten and dominated by dangerous creatures."/>
+		</mission>
+	</quest>
+	
+	<!-- Griffin Shield Quest -->
+	<quest name="Griffin Shield Quest" startstorageid="5004" startstoragevalue="1">
+		<mission name="Griffin Shield Quest" storageid="5004" startvalue="1" endvalue="1">
+				<missionstate id="1" description="A group of explorers tried to get into Demona and died on the way. You have recovered your belongings and finally the souls of these explorers can find peace."/>
+		</mission>
+	</quest>
 </quests>

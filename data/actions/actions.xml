@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
+	<!-- Griffin Shield Quest -->
+	<action actionid="2006" script="quests/system.lua"/>
+	
+	<!-- Crystal Wand Quest -->
+	<action actionid="2005" script="quests/system.lua"/>
+	
 	<!-- Medusa Shield Quest -->
 	<action actionid="2004" script="quests/system.lua"/>
 	

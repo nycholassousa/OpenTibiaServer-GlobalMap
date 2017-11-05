@@ -12,16 +12,14 @@ Storage = {
 		AxeBlowsFace = 8291
 	},
 	
-	MedusaShieldDone = 5003,
-	
-	VampireShieldDone = 5001,
 	
 	AnnihilatorDone = 5000,
-	
+	VampireShieldDone = 5001,
 	FireAxeDone = 5002,
-	
+	MedusaShieldDone = 5003,
+	CrystalWandDone = 5004,
+	GriffinShieldDone = 5005,
 	DemonHelmetDone = 100136,
-	
 	BehemothDone = 100104,
 	
 	SvargrondArena = {
