@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
+	<!-- Naginata Quest -->
+	<action actionid="2007" script="quests/system.lua"/>
+
 	<!-- Griffin Shield Quest -->
 	<action actionid="2006" script="quests/system.lua"/>
 	

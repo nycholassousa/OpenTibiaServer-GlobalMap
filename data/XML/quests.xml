@@ -325,9 +325,16 @@
 	</quest>
 	
 	<!-- Griffin Shield Quest -->
-	<quest name="Griffin Shield Quest" startstorageid="5004" startstoragevalue="1">
-		<mission name="Griffin Shield Quest" storageid="5004" startvalue="1" endvalue="1">
+	<quest name="Griffin Shield Quest" startstorageid="5005" startstoragevalue="1">
+		<mission name="Griffin Shield Quest" storageid="5005" startvalue="1" endvalue="1">
 				<missionstate id="1" description="A group of explorers tried to get into Demona and died on the way. You have recovered your belongings and finally the souls of these explorers can find peace."/>
+		</mission>
+	</quest>
+	
+	<!-- Naginata Quest -->
+	<quest name="Naginata Quest" startstorageid="5006" startstoragevalue="1">
+		<mission name="Naginata Quest" storageid="5006" startvalue="1" endvalue="1">
+				<missionstate id="1" description="A Japanese weapon can be found around the Thais being unique on the mainland, but is secretly guarded by dragons."/>
 		</mission>
 	</quest>
 </quests>

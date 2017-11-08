@@ -19,6 +19,7 @@ Storage = {
 	MedusaShieldDone = 5003,
 	CrystalWandDone = 5004,
 	GriffinShieldDone = 5005,
+	NaginataQuestDone = 5006,
 	DemonHelmetDone = 100136,
 	BehemothDone = 100104,
 	

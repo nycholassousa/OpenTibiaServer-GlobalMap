@@ -16,7 +16,8 @@ local questLog = { --Various chests
 	[2003] = Storage.FireAxeDone,
 	[2004] = Storage.MedusaShieldDone,
 	[2005] = Storage.CrystalWandDone,
-	[2006] = Storage.GriffinShieldDone
+	[2006] = Storage.GriffinShieldDone,
+	[2007] = Storage.NaginataQuestDone
 }
 
 local tutorialIds = {
