@@ -1,5 +1,5 @@
 local specialQuests = { --Choose one chest
-	[2215] = Storage.AnnihilatorDone,
+	[2215]  = Storage.AnnihilatorDone,
 	[26300] = Storage.SvargrondArena.RewardGreenhorn,
 	[27300] = Storage.SvargrondArena.RewardScrapper,
 	[28300] = Storage.SvargrondArena.RewardWarlord
@@ -19,15 +19,6 @@ local questLog = { --Various chests
 	[2006] = Storage.GriffinShieldDone,
 	[2007] = Storage.NaginataQuestDone
 }
-
-local tutorialIds = {
-	[50080] = 5,
-	[50082] = 6,
-	[50084] = 10,
-	[50086] = 11
-}
-
-local hotaQuest = {12102, 12103, 12104, 12105, 12106, 12107}
 
 function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	local storage = specialQuests[item.actionid]
@@ -107,19 +98,6 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	if questLog[item.actionid] then
 		if (player:getStorageValue(questLog[item.actionid]) ~= 1) then
 			player:setStorageValue(questLog[item.actionid], 1)			
-		end
-	end
-	
-	if tutorialIds[storage] then
-		player:sendTutorial(tutorialIds[storage])
-		if item.uid == 50080 then
-			player:setStorageValue(Storage.RookgaardTutorialIsland.SantiagoNpcGreetStorage, 3)
-		end
-	end
-	
-	if isInArray(hotaQuest, item.uid) then
-		if player:getStorageValue(Storage.TheAncientTombs.DefaultStart) ~= 1 then
-			player:setStorageValue(Storage.TheAncientTombs.DefaultStart, 1)
 		end
 	end
 	

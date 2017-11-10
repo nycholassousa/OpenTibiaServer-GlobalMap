@@ -1,4 +1,4 @@
---If using gesior:
+-- If using gesior:
 passwordType = "sha1"
 
 -- Combat settings
@@ -41,7 +41,7 @@ deathLosePercent = -1
 -- Houses
 -- NOTE: set housePriceEachSQM to -1 to disable the ingame buy house functionality
 housePriceEachSQM = 1000
-houseRentPeriod = "never"
+houseRentPeriod = "weekly"
 
 -- Item Usage
 timeBetweenActions = 200
@@ -50,7 +50,7 @@ timeBetweenExActions = 1000
 -- Map
 -- NOTE: set mapName WITHOUT .otbm at the end
 mapName = "World"
-mapAuthor = "Komic"
+mapAuthor = ""
 
 -- MySQL
 mysqlHost = "127.0.0.1"
@@ -66,7 +66,7 @@ freePremium = false
 kickIdlePlayerAfterMinutes = 15
 maxMessageBuffer = 4
 emoteSpells = true
-classicEquipmentSlots = false
+classicEquipmentSlots = true
 
 -- Rates
 -- NOTE: rateExp is not used if you have enabled stages in data/XML/stages.xml
@@ -91,10 +91,10 @@ convertUnsafeScripts = true
 -- NOTE: defaultPriority only works on Windows and sets process
 -- priority, valid values are: "normal", "above-normal", "high"
 defaultPriority = "high"
-startupDatabaseOptimization = false
+startupDatabaseOptimization = true
 
 -- Status server information
-ownerName = ""
-ownerEmail = ""
-url = "https://otland.net/"
-location = "Sweden"
+ownerName = "Nycholas de Sousa"
+ownerEmail = "nycholas@live.com"
+url = ""
+location = "Brazil"

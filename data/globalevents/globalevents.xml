@@ -3,6 +3,7 @@
 	<!-- Demon Oak Quest -->
 	<globalevent name="DemonOakVoices" interval="15000" script="demon oak quest/voices.lua" />
 
+	<!-- Default -->
 	<globalevent type="startup" name="ServerStartup" script="startup.lua" />
 	<globalevent type="record" name="PlayerRecord" script="record.lua" />
 	<globalevent name="Server Save" time="09:55:00" script="serversave.lua" />
