@@ -1,4 +1,4 @@
--- If using gesior:
+-- If you're using gesior:
 passwordType = "sha1"
 
 -- Combat settings
@@ -55,7 +55,7 @@ mapAuthor = ""
 -- MySQL
 mysqlHost = "127.0.0.1"
 mysqlUser = "root"
-mysqlPass = "3gLqv6WtwVPWx279"
+mysqlPass = "656993"
 mysqlDatabase = "global86"
 mysqlPort = 3306
 mysqlSock = ""
